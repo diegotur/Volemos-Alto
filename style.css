@@ -1,0 +1,280 @@
+*{
+    font-family: Merriweather, Verdana, Tahoma, sans-serif;
+    padding:0;
+    margin:0;
+}
+
+.cabecera img{
+    width: 120%;
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+    padding:2vh;
+    margin-left: -1.5vh;
+    border-top-right-radius: 5vh;
+    border-bottom-left-radius: 5vh;
+    
+    background-color: white;
+
+}
+.bgLogo{
+    background-color: black;
+}
+.cabecera{
+    color: white;
+}
+.titulo{
+    font-size: 7vw;
+}
+.subtitulo{
+    font-size: 2vw;
+    color: rgba(173, 216, 230, 0.758);
+    letter-spacing: 0.36vh;
+    text-shadow: 0.13vw 0 1.3vh #fff;
+    
+}
+.subtitulo span{
+    color: transparent;
+    text-shadow: none;
+    font-size: 0.6vw;
+}
+.bgSubtitulo{
+    background-color: rgba(160, 23, 23, 0.676);
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav-item{
+    letter-spacing: 1.2vh;
+    border: ridge 1px rgba(0, 0, 0, 0.317);
+    padding-left: 2vw;
+    display: grid;
+    
+}
+.nav-item:hover{
+    background-color: rgba(0, 0, 0, 0.338);
+    
+}
+.nav-link {
+    color:rgb(0, 0, 0) !important;
+    font-size: 3vw;
+    text-shadow: 0vh -0.2vh 0.6vh rgb(255, 255, 255);
+    padding-bottom: 0;
+    padding-top: 2vh;
+}
+.nav-link span{
+color: transparent;
+text-shadow: none;
+font-size: 0.4vw;
+}
+.navbar{
+    border-bottom-left-radius: 5vh;
+        border-bottom-right-radius: 5vh;
+    background-image: url(./Imagenes/atardecer1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 5vh;
+        border-bottom-right-radius: 5vh;
+}
+
+.navbar-nav{
+  
+    padding-top: 2vh;
+    margin-left: -2vh;
+    margin-right: -2vh;
+    
+}
+.active{
+    font-style: italic;
+    font-size: 3.5vw;
+    
+}
+.borrarPadding{
+    padding: 0 !important;
+}
+.main__parrafo{
+    background-image: url(./Imagenes/condor.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 2.8vh;
+    height: 50vh; 
+    
+}
+.main__parrafo p{
+    text-align: center;
+    height: 70%;
+    padding: 2vh 2vw;
+    font-size: 80%;
+    background-color: rgba(242, 236, 236, 0.226);
+
+}
+.darBorde{
+    border-bottom-left-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+}
+.darBorde p{
+    border-bottom-left-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+}
+.main__titulo p{
+    text-align: center;
+    font-size:3.2vh;
+    color: white;
+    background-color: black;
+    height: 100%;
+    border-top-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+    padding-top: 2vh;
+    letter-spacing: 0.4vw;
+}
+.main__titulo span{
+    color: lightblue;
+}
+.main__link a{
+    text-decoration: none;
+    color: white;
+    font-size: 180%;
+}
+.main__link{
+    background-color: black;
+    text-align: center;
+    border-bottom-left-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+
+}
+
+.asideLeft--banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-top:1vh;
+    margin-bottom:1vh;
+    background-color: black;
+    border-radius: 5vh;
+}
+
+#generar{
+    font-size: 150%;
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    animation-name: bgAsideLeft;
+    animation-duration: 15s; 
+    animation-iteration-count: infinite;
+    border-right: solid 1vh  rgb(197, 227, 237);
+}
+/* .generarQS{
+    border-bottom: solid 1vh rgba(221, 193, 157, 0.927)!important;
+}
+.aumentarQS{
+    border-bottom: solid 1vh rgba(221, 193, 157, 0.927)!important;
+} */
+#aumentar{
+    font-size: 150%;
+    text-align: center;
+    color: black;
+    margin-bottom: 0;
+    height: 100%;
+    width: 100%;
+
+    animation-name: bgAsideLeft2;
+    animation-duration: 15s; 
+    border-right: solid 1vh  rgb(197, 227, 237);
+    animation-iteration-count: infinite;
+}
+#animar{
+    font-size:150%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    height: 100%;
+    margin-bottom: 0;
+    animation-name: bgAsideLeft3;
+    animation-duration: 15s; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes bgAsideLeft {
+    0%{
+    color: black;
+    }
+        
+    100%{
+    color: white;
+    }
+}
+@keyframes bgAsideLeft2 {
+    33%{
+    color: black;
+    }
+    
+    100%{
+    color: white;
+    }
+}
+@keyframes bgAsideLeft3 {
+    66%{
+    color: black;
+    }    
+    100%{
+    color: white;
+    }
+}
+.grid__asideRight video{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    width: 70%;
+    
+
+}
+.grid__asideRight{
+    display: grid;
+    width: 100%;
+    background-color: black;
+    justify-items: center;
+    border-radius: 5vh;
+}
+.fa-brands{
+    font-size: 4vh;
+}
+.footer__links{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.footer__links i{
+    text-decoration: none;
+    padding:0.8vh 0.8vw;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin: 1.5vh;
+}
+.footer__container{
+    margin-top: 0.5vh;
+    border-top-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+}
+.fa-whatsapp{
+    color: green;
+    border: dashed 1.7vh green;
+}
+.fa-facebook{
+    color: blue;
+    border: dashed 1.7vh blue;
+
+}
+.fa-instagram{
+    color: rgb(100, 31, 100);
+    border: dashed 1.7vh rgb(100, 31, 100);
+
+}
+.fa-envelope{
+    color:red;
+    border: dashed 1.7vh red;
+
+}
