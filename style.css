@@ -67,28 +67,57 @@ font-size: 0.4vw;
     background-image: url(./Imagenes/condor.webp);
     background-repeat: no-repeat;
     background-size: 100% auto;
-    font-size: 2.8vh;
-    
+}
+.main__parrafo2{
+    background-image: url(./Imagenes/condor.webp);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.main__parrafo3{
+    background-image: url(./Imagenes/condor.webp);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 .main__parrafo p{
     text-align: center;
     padding: 2vh 2vw;
-    font-size: 3vw;
-    height: 100%;
+    font-size: 4.4vw;
+    background-color: rgba(242, 236, 236, 0.526);
+    height: 54vw;
+    padding-top: 10%;
+}
+.main__parrafo2 p{
+    text-align: center;
+    padding: 2vh 2vw;
+    font-size: 4.4vw;
+    height: 54vw;
+    padding-top: 20%;
     background-color: rgba(242, 236, 236, 0.526);
 }
-
-.main__titulo p{
+.main__parrafo3 p{
     text-align: center;
-    font-size:3.2vh;
+    text-decoration: none;
+    padding: 2vh 2vw;
+    color: black;
+    font-size: 8.4vw;
+    background-color: rgba(242, 236, 236, 0.526);
+    height: 54vw;
+    padding-top: 30%;
+}
+.main__parrafo3 a{
+    text-decoration: none;
+}
+
+.main__titulo{
+    font-size:6vw;
     color: white;
     background-color: black;
     height: 100%;
-    padding-top: 2vh;
     letter-spacing: 0.4vw;
 }
 .main__titulo span{
     color: lightblue;
+    font-size:7vw;
 }
 .main__link a{
     text-decoration: none;
@@ -204,7 +233,7 @@ font-size: 0.4vw;
 }
 .footer__links i{
     text-decoration: none;
-    font-size: 5vh;
+    font-size: 5vw;
     padding:0.5vh 0.5vw;
     border-radius: 50%;
 }
@@ -222,7 +251,7 @@ font-size: 0.4vw;
 }
 .footer__contacto--contacto p{
     color: white;
-    font-size: 3vh;
+    font-size: 3vw;
     margin: 0;
     padding-top: 1vh;
 }
@@ -231,7 +260,7 @@ font-size: 0.4vw;
     display: grid;
 }
 .footer__contacto--items p{
-    font-size: 2vh;
+    font-size: 2vw;
     margin:0 !important;
     color: white;
 }
@@ -240,13 +269,13 @@ height: 8vh;
 padding: 0.5vh;
 }
 .fa-square-phone{
-    font-size: 3vh;
+    font-size: 3vw;
 }
 
 
 #sobre{
 border: none;
-font-size: 3vh;
+font-size: 3vw;
 color:white;
 margin-right: 2vw;
 }
@@ -263,13 +292,15 @@ margin-right: 2vw;
     position: relative;
 } 
 .footer__myself img{
-    height: 10vh;
+    height: 10vw;
     border: double 0.7vh rgba(232, 219, 219, 0.358);
-    margin-top: 1vh;
+    margin-top: 1vw;
+    
 }
 .footer__myself p{
-    font-size: 1.5vh;
+    font-size: 1.5vw;
     color: white;
     text-align: center;
     margin: 0;
+    
 }
