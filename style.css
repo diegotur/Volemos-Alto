@@ -14,14 +14,34 @@
 
 }
 .titulo{
-    font-size: 6.5vw;
+    font-size: 6vw;
+    background-color: black;
+    box-sizing: border-box;
+    color: white;
+    letter-spacing: 1.5vw;
+    padding-top: 3vw;
+    padding-bottom: 2.5vw;
 }
 .subtitulo{
-    font-size: 3.5vw;
+    /*  font-size: 3.5vw;
     color: rgba(55, 255, 255);
     letter-spacing: 0.36vh;
+    text-shadow: 0.13vw 0 1.3vh #fff; */
+    position: relative;
+    background-color: rgba(00, 00, 00, 55%);
+    background-color: rgba(173, 216, 230, 0.308);
+    color: rgba(173, 216, 230, 0.758);
+    font-size: 3.8vw;
+    letter-spacing: 0.2vw;
     text-shadow: 0.13vw 0 1.3vh #fff;
-    
+    padding-top: 6.8vw;
+    height: 12vw;
+    top:-7vw;
+}
+.titulo span{
+    color: transparent;
+    text-shadow: none;
+    font-size: 0.6vw;
 }
 .subtitulo span{
     color: transparent;
@@ -29,21 +49,23 @@
     font-size: 0.6vw;
 }
 .bgSubtitulo{
-    background-color: rgba(0, 0, 0);
     margin: 0;
     padding: 0;
+    height: 5vw;
+    z-index: 1;
+    background-color: black;
     
 }   
-    .nav-link {
-        font-size: 4vw;
-        color: transparent !important;
-
-    }
-    
-    .nav-link span{
-        color: black;
-    }
-    
+.exitosa{
+    color: rgba(251, 248, 248, 0.501);
+}
+.nav-link {
+    font-size: 4vw;
+    color: transparent !important;
+}
+.nav-link span{
+    color: black;
+}
 .nav-link:hover{
     color: black !important; 
     }
@@ -61,6 +83,11 @@
     background-size: 100% auto;
 }
 .main__parrafo2{
+    background-image: url(./Imagenes/atardecer1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+/* .main__parrafo2{
     background-image: url(./Imagenes/condor.webp);
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -69,7 +96,7 @@
     background-image: url(./Imagenes/condor.webp);
     background-repeat: no-repeat;
     background-size: 100% auto;
-}
+} */
 .main__parrafo p{
     text-align: center;
     padding: 2vh 2vw;
@@ -89,7 +116,6 @@
 .main__parrafo3 p{
     text-align: center;
     text-decoration: none;
-    padding: 2vh 2vw;
     color: black;
     font-size: 8.4vw;
     background-color: rgba(242, 236, 236, 0.526);
@@ -102,16 +128,19 @@
 }
 
 .main__titulo{
-    font-size:6vw;
+    font-size:4vw;
     color: white;
     background-color: black;
     height: 100%;
     padding:3vw;
-    letter-spacing: 0.4vw;
+    letter-spacing: 1vw;
 }
 .main__titulo span{
     color: lightblue;
     font-size:7vw;
+}
+.main__titulo img{
+    width: 14%;
 }
 .main__link a{
     text-decoration: none;
@@ -123,56 +152,71 @@
     text-align: center;
 }
 
+
+
+
+
+.grid__asideLeft{
+    grid-area: 2 / 1 / 3 / 2;
+}
 .asideLeft--banner{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    margin-top:1vh;
-    margin-bottom:1vh;
-    background-color: black;
-    border-radius: 5vh;
+    width: 50%;
+    margin: 5% 25%;
 }
-
+.asideLeft--banner span{
+    color: black;
+}
 #generar{
-    font-size: 2.5vh;
-    padding:1vh;
-    color: white;
+    font-size: 3vw;
     text-align: center;
-    margin-bottom: 0;
+    color: white;
+    border-top-left-radius: 3vw;
+    border-top-right-radius: 3vw;
     animation-name: bgAsideLeft;
     animation-duration: 15s; 
     animation-iteration-count: infinite;
-    border-right: solid 1vh  rgb(197, 227, 237);
+    border-bottom: solid 1vw  white;
+    width: 100%;
+    height: 20vw;
+    padding: 10%;
+    margin:2%;
+    background-color: black;
 }
-/* .generarQS{
-    border-bottom: solid 1vh rgba(221, 193, 157, 0.927)!important;
-}
-.aumentarQS{
-    border-bottom: solid 1vh rgba(221, 193, 157, 0.927)!important;
-} */
+
 #aumentar{
-    font-size: 2.5vh;
-    padding:1vh;
+    font-size: 3vw;
     text-align: center;
     color: black;
-    margin-bottom: 0;
     animation-name: bgAsideLeft2;
     animation-duration: 15s; 
-    border-right: solid 1vh  rgb(197, 227, 237);
+    border-bottom: solid 1vw  white;
     animation-iteration-count: infinite;
+    width: 100%;
+    margin:2%;
+
+    height: 20vw;
+    padding: 10%;
+    background-color: black;
 }
 #animar{
-    font-size: 2.5vh;
-    padding:1vh;
+    font-size: 3vw;
     text-align: center;
     color: black;
-    margin-bottom: 0;
+    border-bottom-left-radius: 3vw;
+    border-bottom-right-radius: 3vw;
     animation-name: bgAsideLeft3;
     animation-duration: 15s; 
     animation-iteration-count: infinite;
+    width: 100%;
+    margin:2%;
+    height: 20vw;
+    background-color: black;
+    padding: 10%;
 }
-
 @keyframes bgAsideLeft {
     0%{
     color: black;
