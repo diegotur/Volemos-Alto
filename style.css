@@ -350,3 +350,558 @@
     text-align: center;
     margin: 0;
 }
+.main__contacto{
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    grid-template-columns: 1fr;
+    border-bottom-right-radius: 5vh;
+    border-bottom-left-radius: 5vh;
+    border-width: 3vh;
+    border-left: none;
+    background-color: white;
+    overflow: auto;
+    box-shadow: 1.5vh 2vh 2vh 0 black;
+    background-image: url(./Imagenes/RAMA.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(173, 216, 230, 1);
+    background-position: -2.5vw -6vh;
+}
+.main__contacto--up{
+    grid-area: 1 / 1/ 2 / 2;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    top:4vh;
+    /* background-color: rgba(148, 246, 182, 0.586); */
+    background-color: rgba(0, 0, 0, 0.436);
+    height: 6vh;
+    border-top: ridge 0.5vh black;
+    border-bottom: ridge 0.5vh black;
+    z-index: 100;
+}
+
+.contacto__titulo b{
+    font-size: 3vh;
+    letter-spacing: 0.6vh;
+    color: white;
+}
+
+.contacto__formulario{
+    grid-area: 2 / 1 / 3 / 2;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    z-index: 100;        
+}
+.form__left{
+    grid-area: 1 / 1 / 2 / 2;
+    display: grid;
+    grid-template-rows: repeat(4 1fr);
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+}
+
+.form__middle{
+    grid-area: 1 / 2 / 2 / 3;
+}
+.from__right{
+    grid-area: 1 / 3 / 2 / 4;
+}
+.form__left input{
+    font-style: italic;
+    font-size:larger;
+    font-family: 'Times New Roman', Times, serif;
+    width: 25vw;
+    height: 5vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.436);
+    border: double 0.6vh black;
+}
+    
+ .form__left input::placeholder{
+     color: white;
+     font-size: larger;
+ }
+.contacto__formulario textarea{
+    height: 25vh;
+    width: 30vw;
+    border: double 0.6vh black;
+    font-style: italic;
+    font-size:larger;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(0, 0, 0, 0.436);
+    resize: none;
+}
+.contacto__formulario textarea:focus{
+    color: white;
+    outline: none;
+    font-size: larger;
+}
+.contacto__formulario input:focus{
+    outline: none;
+    color: white;
+    font-size: larger;
+}
+.contacto__formulario input:focus::placeholder{
+    color: transparent;
+}
+.contacto__formulario textarea:focus::placeholder{
+    color: transparent;
+}
+.contacto__formulario textarea::placeholder{
+    color: white;
+    font-size: x-large;
+}
+#enviar{
+    border: double 0.6vh black;
+    font-style: italic;
+    font-size:larger;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(0, 0, 0, 0.436);
+    height: 6vh;
+    width: 8vw;
+    border-top-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;    
+}
+.main__clientes{
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+    grid-template-columns: 1fr;
+    background-color: #fffffff3;
+    border-bottom-right-radius: 5vh;
+    border-bottom-left-radius: 5vh;
+    border-width: 3vh;
+    border-left: none;
+    overflow: auto;
+    box-shadow: 1.5vh 2vh 2vh 0 black;
+    height: 100%;
+    border-top: none;
+
+}
+.clientes__titulo{
+    grid-area: 1 / 1 / 2 / 2;
+    display: grid;
+    justify-items: left;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 1);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.clientes__titulo p{
+    font-size: 3vh;
+    letter-spacing: 1vh;
+    color: peachpuff;
+    position: relative;
+    top:1vh;
+    left:1vw;
+}   
+.clientes__cuerpo{
+    grid-area: 2 / 1 / 3 / 2;    
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.clientes__cuerpo--cliente1{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 6fr;
+    justify-items: center;
+    align-items: center;
+}
+.clientes__cuerpo--cliente2{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 8fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.clientes__cuerpo--cliente3{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 8fr;
+    justify-items: center;
+    align-items: center;
+}
+.cliente1--left{
+    grid-area: 1 / 1 / 2 / 2;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(173, 216, 230, 0.558);
+}   
+.cliente1--right{
+    grid-area: 1 / 2 / 2 / 3;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(173, 216, 230, 0.558);
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.cliente2--left{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: rgba(173, 216, 230, 0.958);
+}
+.cliente2--right{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: rgba(173, 216, 230, 0.958);
+}
+.cliente3--left{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(173, 216, 230, 0.558);
+}
+.cliente3--right{
+    display: grid;
+    background-color: rgba(173, 216, 230, 0.558);
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.clientes__cuerpo--cliente1 img{
+    height: 18vh;
+    width: 100%;
+}
+.clientes__cuerpo--cliente2 img{
+    height: 18vh;
+}
+.clientes__cuerpo--cliente3 img{
+    height: 18vh;
+}
+.cliente1--right p{
+    font-size: 2vh;
+    width: 100%;
+    padding-left: 1vh;
+}
+.cliente2--left p{
+    font-size: 2.4vh;
+    width: 100%;
+    padding-left: 2vh;
+}
+.cliente3--right p{
+    font-size: 2vh;
+    width: 100%;
+    padding-left: 1vh;
+}
+#deniro{
+    text-align: center;
+    width: 100%;
+    height: 60%;
+    padding-right: 15vh;
+    font-size: 3vh;
+    text-decoration: underline;
+}
+#hugest{
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    font-size: 3vh;
+    padding-left: 20vh;
+    text-decoration: underline;
+}
+#andrada{
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    font-size: 3vh;
+    padding-right: 15vh;
+    text-decoration: underline;
+}
+.quienSoy{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+    border-bottom-right-radius: 5vh;
+    border-width: 3vh;
+    overflow: hidden; /* todo está correcto en teoría, pero a veces muestra scroll y a veces no... necesito investigarlo un poco más */
+    background-color: rgba(222, 184, 135, 0.527);
+    box-shadow: 1.5vh 2vh 2vh 0 black;
+}
+#bgQuienSoy{
+    background-color: rgba(222, 184, 135, 0.827);
+}
+#bgContacto{
+    background-color: rgba(173, 216, 230, 1);
+}
+.quienSoy__left{
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.quienSoy__left img{
+    height: 60.2vh;
+    width: 100%;
+}
+.quienSoy__right{
+    grid-area: 1 / 2 / 2 / 3;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns:1fr 2fr;
+    justify-items: center;
+    align-items: center;
+}
+#quienSoy--span1{
+    grid-area: 1 / 2 / 2 / 3;
+    background-image: url(./Imagenes/epecuen2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: rgba(175, 84, 175, 0.644);
+    height: 160%;
+    width: 110%;
+    position: relative;
+    left:-3.2vh;
+   /*  border-bottom: solid 0.2vh black;
+    border-left: solid 0.2vh black;
+ */}
+#quienSoy--span2{
+    grid-area: 2 / 1 / 3 / 2;
+    background-image: url(./Imagenes/epecuen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(175, 84, 125, 0.644);
+    height: 100%;
+    width: 110%;
+    position: relative;
+    left:1.4vh;
+/*     border-top: solid 0.2vh black;
+    border-right: solid 0.2vh black;
+ */}
+
+.quienSoy__right h2{
+    text-align: center;
+    font-size: 7vh;
+    padding-right: 5vh;
+}
+.quienSoy__right h6{
+    width: 90%;
+    font-size: 2.5vh;
+    position: relative;
+    top: 4.2vh;
+    text-align: center;
+    left:1vh;
+}
+.quienSoy__box{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.429);
+    top:55vh;
+    left:50.8vw;
+    height: 9vh;
+    width: 4.7vw;
+    z-index: 10;
+}
+.main__servicios{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    background-color: #c1c1b37a;
+    border-bottom-right-radius: 5vh;
+    border-bottom-left-radius: 5vh;
+    border-width: 3vh;
+    border-left: none;
+    background-color: white;
+    overflow: auto;
+    box-shadow: 1.5vh 2vh 2vh 0 black;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    
+}
+
+.main__servicios--banners{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: black;
+}
+.main__servicios--botones{
+    grid-area: 2 / 1 / 3 / 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1vh;
+    column-gap: 1vw;
+    justify-items: center;
+    align-items: center;
+    background-color: black;
+}
+.main__servicios--botones p{
+    font-size: 4vh;
+    height: 100%;
+    width: 100%;
+    padding-left: 1vh;
+    border: solid 0.3vh black;
+    border-top-right-radius: 3vh;
+    border-bottom-right-radius:3vh ;
+    /* text-shadow: 20vw 10vh 0.8vh #333; */
+}
+.googleAds--boton{
+    text-shadow: 23vw 9vh 0.8vh #333;
+    background-color: white;
+    margin-left: 0.5vh;
+}
+.mostrarFacebook{
+    height: 14.5vh;
+    width: 35.2vw;
+    background-color: green;
+    opacity: 1%;
+    position: absolute;
+    top:55vh;
+    left:50.5vw;
+}
+.mostrarGoogle{
+    height: 14.5vh;
+    width: 35.2vw;
+    background-color: green;
+    opacity: 1%;
+    position: absolute;
+    top:55vh;
+    left:14.5vw;
+}
+.mostrarInstagram{
+    height: 14.5vh;
+    width: 35.2vw;
+    background-color: green;
+    opacity: 1%;
+    position: absolute;
+    top:71vh;
+    left:14.5vw;
+}
+.mostrarWebDesign{
+    height: 14.5vh;
+    width: 35.2vw;
+    background-color: green;
+    opacity: 1%;
+    position: absolute;
+    top:70.5vh;
+    left:50.5vw;
+}
+.mostrarGoogle:hover + .mg{
+    transition: 1s;
+    opacity: 100%;
+}
+.mostrarFacebook:hover + .mf{
+    transition: 1s;
+    opacity: 100%;
+}
+.mostrarInstagram:hover + .mi{
+    transition: 1s;
+    opacity: 100%;
+}
+.mostrarWebDesign:hover + .mw{
+    transition: 1s;
+    opacity: 100%;
+}
+.facebookAds--boton{
+    text-shadow: 21vw 9vh 0.8vh #333;
+    background-color: white;
+}
+.instagramAds--boton{
+    text-shadow: 20vw 9vh 0.8vh #333;
+    background-color: white;
+    margin-left: 0.5vh;
+    border-bottom-left-radius: 5vh;
+}
+.webDesign--boton{
+    text-shadow: 22.5vw 9vh 0.8vh #333;
+    background-color: white;
+}
+.mf{
+    opacity:0;
+}
+.mi{
+    opacity: 0;
+}
+.mw{
+    opacity: 0;
+}
+.mg{
+    opacity: 0;
+}
+
+.main__servicios--banners img{
+    height: 29.5vh;
+    width: 71.5vw;
+    position: absolute;
+    left:14.25vw;
+    top: 25.2vh;
+}
+
+/* .main__contacto--rama{
+    position: absolute;
+    height: 20%;
+    width: 18%;
+    left:31vh;
+    top: 72vh;
+    transform: rotate(-30deg);
+    z-index: -10 ;
+}
+.main__contacto--rama2{
+    position: absolute;
+    transform: scale(67%);
+    left: 72.5vh;
+    top: 13vh;
+    z-index: -10 ;
+}
+.main__contacto--rama3{
+    position: absolute;
+    transform: rotate(-30deg);
+    top: 22vh;
+    z-index: 10 ;
+}
+.main__contacto--rama4{
+    position: absolute;
+    transform: scale(66%);
+    top: 65vh;
+    left: 61.3vw;
+    z-index: -1 ;
+} */
+
+
+@media only screen and (min-width: 992px) {
+
+}
+    

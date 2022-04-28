@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volemos Alto - Publicidad Digital</title>
-    <link rel="ICON" type="image/x-icon" href="./Imagenes/Icono_va.PNG">
+    <link rel="ICON" type="image/x-icon" href=".,/Imagenes/Icono_va.PNG">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/f96f61fe4d.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <header class="header">
@@ -44,23 +44,23 @@
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                            <img id="logoNavBar"src="./Imagenes/logoT1.png" alt="Mi Logo">
+                            <img id="logoNavBar"src="../Imagenes/logoT1.png" alt="Mi Logo">
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-angles-left"></i><span> INICIO </span><i class="fa-solid fa-angles-right"></i></a>
+                                        <a class="nav-link" aria-current="page" href="../index.html"><i class="fa-solid fa-angles-left"></i><span> INICIO </span><i class="fa-solid fa-angles-right"></i></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="./paginas/servicios.html"><i class="fa-solid fa-angles-left"></i><span> SERVICIOS </span><i class="fa-solid fa-angles-right"></i></a>
+                                        <a class="nav-link" href="../paginas/servicios.html"><i class="fa-solid fa-angles-left"></i><span> SERVICIOS </span><i class="fa-solid fa-angles-right"></i></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="./paginas/clientes.html"><i class="fa-solid fa-angles-left"></i><span> CLIENTES </span><i class="fa-solid fa-angles-right"></i></a>
+                                        <a class="nav-link" href="../paginas/clientes.html"><i class="fa-solid fa-angles-left"></i><span> CLIENTES </span><i class="fa-solid fa-angles-right"></i></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="./paginas/quien_soy.html"><i class="fa-solid fa-angles-left"></i><span> QUIEN SOY </span><i class="fa-solid fa-angles-right"></i></a>
+                                        <a class="nav-link" href="../paginas/quien_soy.html"><i class="fa-solid fa-angles-left"></i><span> QUIEN SOY </span><i class="fa-solid fa-angles-right"></i></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="./paginas/contacto.html"><i class="fa-solid fa-angles-left"></i><span> CONTACTO </span><i class="fa-solid fa-angles-right"></i></a>
+                                        <a class="nav-link" href="#"><i class="fa-solid fa-angles-left"></i><span> CONTACTO </span><i class="fa-solid fa-angles-right"></i></a>
                                     </li>
                             </ul>
                         </div>
@@ -79,40 +79,56 @@
 
 </section>
 
-<main class="index__main">
-    <div class="container-fluid text-center">
-        <div class="row">
-            <div class="col main__titulo">
-                ¿QUERÉS QUE TU <br>PRODUCTO O SERVICIO<br>
-                <span> 
-                    <img src="./Imagenes/ala1.png" alt="Alas"> TOME VUELO<img src="./Imagenes/ala2.png" alt="Alas">
-                </span><br> EN INTERNET?
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid text-center">
-        <div class="row borrarPadding main__parrafo">
-            <div class="col-6  borrarPadding">
-                <p>La publicidad digital se transformó en una herramienta esencial para cualquier tipo de empresa o micro emprendimiento. </p>
-            </div>
-            <div class="col-6">
-            </div>
-        </div>
-        <div class="row borrarPadding main__parrafo2">
-            <div class="col-6 borrarPadding">
-                <p>Podrás aumentar tu cartera de clientes, posicionar tu marca o empezar desde cero tu negocio.</p>
-            </div>
-            <div class="col-6 main__parrafo3 borrarPadding">
-                <a href="./paginas/servicios.html"><p>Ver Servicios</p></a>
-            </div>
-        </div>
-    </div>
-           
+<main>
+    <main class="main__contacto">
+        <section class="main__contacto--up">
+            <div class="contacto__titulo">
+                <b>Rellená el formulario y me pondré en contacto a la brevedad</b>
+           </div>
+       </section>
+               
+       <form class="contacto__formulario">
+           <div class="form__left">
+   
+               <div>
+                   <label for="Nombre"></label>
+                   <input type="text" name="Nombre" placeholder="¿Cuál es tu nombre?"> 
+               </div>
+               <div>
+                   <label for="Telefono"></label>
+                   <input type="tel" name="Telefono" placeholder="Teléfono">
+               </div>    
+               <div>
+                   <label for="mail"></label>
+                   <input type="email" name="mail" placeholder="E-mail">
+               </div>
+               <div>
+               <label for="Rubro"></label>
+               <input type="text" name="Rubro" placeholder="¿A qué te dedicás?">
+               </div>
+           </div>
+           <div class="form__middle">
+               <div>
+                   <label for="Comentarios"></label>
+                   <textarea name="Comentarios" 
+                   placeholder="Contame sobre tu negocio y tus objetivos al invertir en publicidad digital."
+                    ></textarea>
+               </div>
+           </div>
+           <div class="form__right">
+               <div>
+                   <label for="Enviar"></label>
+                   <input id="enviar" type="submit" name="Enviar">
+               </div>
+           </div>
+       
+   </form>
+   
     <div class="container-fluid asides text-center borrarPadding">   
         <div class="row text-center borrarPadding">
             
             <div class="col-6 grid__asideRight borrarPadding">
-                <video autoplay muted loop src="./videos/Mis clientes dicen.mp4"></video>
+                <video autoplay loop src="../videos/Mis clientes dicen.mp4"></video>
             </div>
             
             <div class="col-6 borrarPadding text-center asideGenerar">
@@ -161,13 +177,13 @@
                 <div class="footer__contacto--items">
                     <p><!-- <i class="fa-solid fa-brands fa-envelope" id="sobre"></i> --> ivanna.publicidad@gmail.com</p>
                     <p><!-- <i class="fa-solid fa-square-phone"></i> -->(011) 26808643</p>
-                    <img src="./Imagenes/arg.png" alt="Bandera Argentina">
+                    <img src="../Imagenes/arg.png" alt="Bandera Argentina">
                 </div>
             </div>
                 <div class="col-4 borrarPadding container-fluid ">
                     
         <div class="footer__myself">
-            <img src="./Imagenes/mifoto.png" alt="Mi Foto" >
+            <img src="../Imagenes/mifoto.png" alt="Mi Foto" >
             <div>
                 <p>- Tu éxito es mi éxito - </p>
                 <p>Volemos Alto</p>
