@@ -38,7 +38,7 @@
                     </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col barraNav">
                     <nav class="navbar navbar-expand-lg navbar-light borrarPadding container-lg">
                         <div class="container-fluid borrarPadding">
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,13 +51,13 @@
                                         <a class="nav-link" aria-current="page" href="../index.html"><i class="fa-solid fa-angles-left"></i><span> INICIO </span><i class="fa-solid fa-angles-right"></i></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#"><i class="fa-solid fa-angles-left"></i><span> SERVICIOS </span><i class="fa-solid fa-angles-right"></i></a>
+                                        <a class="nav-link" href="../paginas/servicios.html"><i class="fa-solid fa-angles-left"></i><span> SERVICIOS </span><i class="fa-solid fa-angles-right"></i></a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="../paginas/clientes.html"><i class="fa-solid fa-angles-left"></i><span> CLIENTES </span><i class="fa-solid fa-angles-right"></i></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="../paginas/quien_soy.html"><i class="fa-solid fa-angles-left"></i><span> QUIEN SOY </span><i class="fa-solid fa-angles-right"></i></a>
+                                        <a class="nav-link" href="#"><i class="fa-solid fa-angles-left"></i><span> QUIEN SOY </span><i class="fa-solid fa-angles-right"></i></a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="../paginas/contacto.html"><i class="fa-solid fa-angles-left"></i><span> CONTACTO </span><i class="fa-solid fa-angles-right"></i></a>
@@ -72,37 +72,61 @@
 
     </header>
 
-<section>
 
-    
+
+<main class= "servicios__main">    
     
 
-</section>
+        <div class="row asides borrarPadding">
+            <div class="col-xs-12 col-md-12 col-lg-6 asides borrarPadding text-center main__servicios--banners serviciosBanners">
 
-<main class="main__servicios">    
-    
-    <div class="main__servicios--banners">
-        <div class="mostrarGoogle"></div>
-        <img class="mg" id="googleAds"src="../Imagenes/barraGoogle.png"></img>
-        <div class="mostrarFacebook"></div>
-        <img class="mf" id="facebookAds"src="../Imagenes/barrafacebook.png"></img>
-        <div class="mostrarInstagram"></div>
-        <img class="mi" id="instagramAds"src="../Imagenes/barrainstagram.png"></img>
-        <div class="mostrarWebDesign"></div>
-        <img class="mw" id="webDesign"src="../Imagenes/barraWebs.png"></img>
+                <div class="mostrarGoogle"></div>
+                <img class="mg" id="googleAds"src="../Imagenes/barraGoogle.png"></img>
+                <div class="mostrarFacebook"></div>
+                <img class="mf" id="facebookAds"src="../Imagenes/barrafacebook.png"></img>
+                <div class="mostrarInstagram"></div>
+                <img class="mi" id="instagramAds"src="../Imagenes/barrainstagram.png"></img>
+                <div class="mostrarWebDesign"></div>
+                <img class="mw" id="webDesign"src="../Imagenes/barraWebs.png"></img>
+            </div>
+        </div>
     </div>
-    <div class="main__servicios--botones">
-        <p class="googleAds--boton">Google Ads</p>
-        <p class="facebookAds--boton">Facebook Ads</p>
-        <p class="instagramAds--boton">Instagram Ads</p>
-        <p class="webDesign--boton">Web Design</p>
-    </div>
+    <div class="row borrarRow">
+        <div class="col main__servicios--botones servicios--botones">
 
+            <p class="googleAds--boton">Google Ads</p>
+            <p class="facebookAds--boton">Facebook Ads</p>
+            <p class="instagramAds--boton">Instagram Ads</p>
+            <p class="webDesign--boton">Web Design</p>
+        </div>
+    </div>
+    
+            
+    
+    <div class="container-fluid asides text-center borrarPadding">   
+        <div class="row text-center borrarPadding asideGenerar">
+            
+            <div class="col-6 grid__asideRight borrarPadding asideGenerar">
+                <video autoplay muted loop src="../videos/Mis clientes dicen.mp4"></video>
+            </div>
+            
+            
+                
+            <div class="col-6 asideLeft--banner text-center asideGenerar ">
+                <p id="generar">GENERÁ<br> NUEVOS<br>CLIENTES</p>
+                <p id="aumentar">AUMENTÁ<br>TUS<br>CONSULTAS</p>
+                <p id="animar">ANIMATE<br>A<br>CRECER</p>
+            </div>
+              
+           
+            
+        </div>
+    </div>      
   
 </main>
 
     
-<footer>
+<footer class="footer__servicios2">
     <div class="container-fluid bg-black">
         <div class="row">
             <div class="col-3 container-fluid">
@@ -133,6 +157,7 @@
                     <p><!-- <i class="fa-solid fa-brands fa-envelope" id="sobre"></i> --> ivanna.publicidad@gmail.com</p>
                     <p><!-- <i class="fa-solid fa-square-phone"></i> -->(011) 26808643</p>
                     <img src="../Imagenes/arg.png" alt="Bandera Argentina">
+                    <img id="bandera" src="../Imagenes/arg.png" alt="Bandera Argentina">
                 </div>
             </div>
                 <div class="col-4 borrarPadding container-fluid ">
