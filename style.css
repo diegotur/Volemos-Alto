@@ -67,6 +67,7 @@
 .nav-link span{
     color: black;
 }
+
 .nav-link:hover{
     color: black !important; 
     }
@@ -74,6 +75,9 @@
 .navbar{
     margin-top: 2vh;
     margin-bottom: 2vh;
+}
+.logoIndex{
+    width: 30%;
 }
 .quienSoySpace{
     color: transparent !important;
@@ -392,10 +396,10 @@
     border: double 1vw black;
 }
     
- .form__left input::placeholder{
-     color: white;
-     font-size: 4vw;
- }
+.form__left input::placeholder{
+    color: white;
+    font-size: 4vw;
+}
 .contacto__formulario textarea{
     height: 30vw;
     width: 80vw;
@@ -522,7 +526,7 @@
     width: 100%;
     position: relative;
     top:6.9vw;
-   /*  border-bottom: solid 0.2vh black;
+/*  border-bottom: solid 0.2vh black;
     border-left: solid 0.2vh black;
  */}
 #quienSoy--span2{
@@ -671,7 +675,7 @@
 
 .main__servicios--banners img{
     } */
- 
+
 /* .main__contacto--rama{
     position: absolute;
     height: 20%;
@@ -714,7 +718,6 @@
         padding-top: 0.1vw;
     }
     .subtitulo{
-     
         background-color: rgba(173, 216, 230, 0.308);
         color: rgba(173, 216, 230, 0.758);
         font-size: 1.8vw;
