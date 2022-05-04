@@ -1555,7 +1555,87 @@
         position: relative;
         left: 21vw;
     }
+    .grid__asideRight{
+        display: grid;
+        justify-items: start;
+        align-items: start;
+        margin-left: 1.5vw;
+        height: 27vw;
+        width: 12vw;
+        box-sizing: border-box;
+        border-bottom-right-radius: 0.6vw;
+        position: relative;
+        left:3vw;
+        top: -31vw;
+    }
+    .whatsappAnim {
+        background: #25d366;
+        color: white;
+        position: relative;
+        top: 1.2vw;
+        left: 2.4vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 0;
+        height: 0;
+        padding: 3.5vw;
+        text-decoration: none;
+        border-radius: 50%;
+        animation-name: pulse;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: infinite;
+    }
+    .fa-whatsapp{
+        font-size: 6vw;
+    }
+    .whatsappInput{
+        width: 11vw;
+        position: relative;
+        top: -11.3vw;
+        left: 0.5vw;
+        
+    }
+    .teLlamo p{
+        font-size: 1.7vw;
+        text-align: center;
+        position: relative;
+        color: white;
+        height: 15vw;
+        width: 12vw;
+        background-color: rgb(60, 12, 12);
+        padding-top: 6.5vw;
+        padding-bottom: 3vw; 
+        border-top-left-radius: 5vw;
+        border-top-right-radius: 5vw;
+        border-left:2vw;
+        border-right:2vw;
+        /* border:solid black; */
+        
+    }
+    .teLlamo{
+        background-color: black;
+        height: 28vw;
+        position: relative;
+        /*  top: 6vw; */
+        width: 12vw;
+        
+    }
+    
+    @keyframes pulse {
+        0% {
+            box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+        }
+        80% {
+            box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+        }
+    }
+    .rowAside{
+        height: 0;
+    }
 
+    
 }    
 @media only screen and (max-width: 475px) {
 
