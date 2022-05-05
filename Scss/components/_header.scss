@@ -1,0 +1,119 @@
+*{
+    font-family: Merriweather, Verdana, Tahoma, sans-serif;
+}
+
+
+.header{
+    background-color: rgb(255, 255, 255);
+    .cabecera img{
+        width: 30%;
+    }
+    .titulo{
+        font-size: 6vw;
+        background-color: black;
+        box-sizing: border-box;
+        color: white;
+        letter-spacing: 1.5vw;
+        padding-top: 3vw;
+        padding-bottom: 2.5vw;
+        width: 100vw;
+        span{
+            color: transparent;
+            text-shadow: none;
+            font-size: 0.6vw;
+        }
+    }
+    .subtitulo{
+        position: relative;
+        background-color: rgba(00, 00, 00, 55%);
+        background-color: rgba(173, 216, 230, 0.308);
+        color: rgba(173, 216, 230, 0.758);
+        font-size: 3.8vw;
+        letter-spacing: 0.2vw;
+        padding: 0;
+        text-shadow: 0.13vw 0 1.3vh #fff;
+        padding-top: 6.8vw;
+        height: 12vw;
+        top:-7vw;
+        margin: 0;
+        span{
+            color: transparent;
+            text-shadow: none;
+            font-size: 0.6vw;
+        }
+    }
+    .bgSubtitulo{
+        height: 5vw;
+        z-index: 1;
+        
+        background-color: black;
+        .exitosa{
+            color: rgba(251, 248, 248, 0.501);
+        }
+    }
+}   
+
+@media only screen and (min-width: 992px) {
+.header{
+    .titulo{
+        font-size: 3vw;
+        background-color: black;
+        box-sizing: border-box;
+        color: white;
+        letter-spacing: 1.5vw;
+        height: 4vw;
+        padding-top: 0.1vw;
+        span{
+            color: transparent;
+            text-shadow: none;
+            font-size: 0.6vw;
+        }
+    }
+    .subtitulo{
+        background-color: rgba(173, 216, 230, 0.308);
+        color: rgba(173, 216, 230, 0.758);
+        font-size: 1.8vw;
+        letter-spacing: 0.2vw;
+        text-shadow: 0.13vw 0 1.3vh #fff;
+        height: 3vw;
+        position: relative;
+        top: 0.1vw;
+        padding-top: 0.5vw;
+        span{
+            color: transparent;
+            text-shadow: none;
+            font-size: 0.6vw;
+        }
+    }
+    .bgSubtitulo{
+        position: relative;
+        z-index: 1;
+        background-color: black;
+        height: 3vw;
+        .exitosa{
+            color: rgba(251, 248, 248, 0.501);
+        }
+    }   
+}
+}
+@media only screen and (min-width: 1358px) {
+
+    .subtitulo{
+        font-size: 1.8vw;
+    }
+}
+@media only screen and (max-width: 475px) {
+
+    .header{
+        .subtitulo{
+            font-size: 3vw;
+        }
+    }
+}
+@media only screen and (max-width: 384px) {
+    .header{
+        .subtitulo{
+            font-size: 3vw;
+        }
+    }
+}

@@ -1,0 +1,109 @@
+.cliente1--left img{
+    width: 100%;
+    position: relative;
+    top: 26vw;
+    outline: double 2vw black;
+
+}
+
+.cliente2--right img{
+    width: 100%;
+    position: relative;
+    outline: double 2vw black;
+}
+.cliente3--left img{
+    width: 100%;
+    outline: double 2vw black;
+}
+.clientes__main{
+    background-color: rgba(238, 228, 165, 0.778);
+}
+#deniro{
+    font-size: 5vw;
+}
+#hugest{
+    font-size: 5vw;
+}
+
+#andrada{
+    font-size: 5vw;
+}
+.cliente1--right{
+    font-size: 3vw;
+    width: 90%;
+}
+.cliente2--left{
+    font-size: 3vw;
+}
+.cliente3--right{
+    font-size: 3vw;
+}
+.cliente1--right p{
+    padding: 0 2vw 0 2vw;
+}
+.cliente3--right p{
+    padding: 0 2vw 0 2vw;
+    
+}
+@media only screen and (min-width: 992px) {
+
+    .clientes__cuerpo{
+        width: 60%;
+        height: 34.5vw;
+        overflow: auto;
+        position: relative;
+        
+    }
+    
+    .cliente1--left img{
+        width: 70%;
+        top:12vw;
+        left:2vw;
+        outline: double 2vw black;
+    }
+    .cliente2--right img{
+        width: 70%;
+        position: relative;
+        left:2vw;
+        top:2vw;
+        outline: double 2vw black;
+    }
+    .cliente3--left img{
+        width: 70%;
+        position: relative;
+        left:2vw;
+        top:3vw;
+        outline: double 2vw black;
+    }
+    .clientes__main{
+        background-color: rgba(238, 228, 165, 0.778);
+    }
+    #deniro{
+        font-size: 3vw;
+    }
+    #hugest{
+        font-size: 3vw;
+    }
+    
+    #andrada{
+        font-size: 3vw;
+    }
+    .cliente1--right{
+        font-size: 1.5vw;
+        width: 90%;
+    }
+    .cliente2--left{
+        font-size: 1.5vw;
+    }
+    .cliente3--right{
+        font-size: 1.5vw;
+        padding-bottom: 2vw;
+    }
+    .cliente1--right p{
+        padding: 0 2vw 0 2vw;
+    }
+    .cliente3--right p{
+        padding: 0 2vw 0 2vw;
+        
+    }
+}

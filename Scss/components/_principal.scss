@@ -1,0 +1,138 @@
+
+.reset{
+    @extend %reset;
+}
+.index__main{
+    background-color: rgb(60, 12, 12);
+}
+.main__parrafo{
+    background-image: url(../Imagenes/condor.webp);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    p{
+        text-align: center;
+        padding: 2vh 2vw;
+        font-size: 4.2vw;
+        background-color: rgba(242, 236, 236, 0.526);
+        height: 54vw;
+        padding-top: 10%;
+    }
+}
+.main__parrafo2{
+    background-image: url(../Imagenes/atardecer1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    p{
+        text-align: center;
+        padding: 2vh 2vw;
+        font-size: 4.4vw;
+        height: 54vw;
+        padding-top: 20%;
+        background-color: rgba(242, 236, 236, 0.526);
+    }
+}
+.main__parrafo3{
+    @extend %reset;
+    p{
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-size: 8.4vw;
+        background-color: rgba(242, 236, 236, 0.526);
+        height: 54vw;
+        padding-top: 30%;
+        text-shadow: 0.2vh 0 0.5vh #000;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+.main__titulo{
+    font-size:4vw;
+    color: white;
+    background-color: black;
+    height: 100%;
+    padding:3vw;
+    letter-spacing: 1vw;
+    span{
+        color: lightblue;
+        font-size:7vw;
+    }
+    img{
+        width: 14%;
+    }
+}
+.col-lg-0{
+    display: hidden;
+}
+@media only screen and (min-width: 992px) {
+    .index__main{
+        margin-top: 2vw;
+    }
+    .container__main{
+        background-image: url(../Imagenes/condor.webp);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        width: 60vw;
+        margin-top: 1vh;
+        position: relative;
+        left: 22vw;
+    }
+    .main__parrafo{
+        background-image: none;
+        height: fit-content;
+        p{
+            text-align: center;
+            font-size: 1.8vw;
+            background-color: rgba(242, 236, 236, 0.526);
+            height: 19.4vw;
+            padding-top: 10%;
+            margin-bottom: 0;
+        }
+    }
+    .main__parrafo2{
+        background-image: none;
+        height: fit-content;
+        p{
+            text-align: center;
+            font-size: 1.5vw;
+            height: 13vw;
+            padding-top: 8%;
+            background-color: rgba(242, 236, 236, 0.526);
+        }
+    }
+    .main__parrafo3{
+        p{
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            font-size: 3.5vw;
+            background-color: rgba(242, 236, 236, 0.526);
+            height: 13vw;
+            padding-top: 12%;
+            text-shadow: 0.2vh 0 0.5vh #000;
+        }
+    }
+.main__titulo{
+        font-size:1.5vw;
+        color: white;
+        background-color: black;
+        height: 5vw;
+        padding: 0;
+        letter-spacing: 0.3vw;
+        padding-top: 1.5vw;
+        
+        span{
+            color: lightblue;
+            font-size:1.8vw;
+            letter-spacing: 0.3vw;
+        }
+        img{
+            width: 2%;
+        }
+    }
+    .borrarBr{
+    display:none;
+    }
+}
+

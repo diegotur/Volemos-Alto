@@ -1,0 +1,56 @@
+.nav-link {
+    font-size: 4vw;
+    color: transparent !important;
+}
+.nav-link span{
+    color: black;
+}
+.nav-link:hover{
+    color: black !important; 
+    }
+.navbar{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.logoIndex{
+    width: 30%;
+}
+@media only screen and (min-width: 992px) {
+
+    .nav-link {
+        font-size:1vw;
+        margin-top: 1vw;
+        margin-left: 1.3vw;
+        color: transparent !important;
+    }
+    .nav-link span{
+        color: white;
+        padding: 0 0.3vw 0 0.3vw;
+    }
+    .nav-link:hover{
+        color: white !important; 
+        }
+    .navbar-expand-lg{
+        width: 60%;
+        text-align: center;
+    }
+    #logoNavBar{
+        display: flex;
+        width: 8vw;
+        position: absolute;
+        left:-20vw;
+        top:-0.6vw;
+    }
+    #navbarNav{
+        height: 3.5vw;
+        position: absolute;
+        left: 1vw;
+        bottom:-2vw;
+        width: 55vw;
+        border: solid white;
+        border-bottom: none;
+        background-color: rgb(60, 12, 12);
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+    }
+}
