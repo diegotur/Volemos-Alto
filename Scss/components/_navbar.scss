@@ -24,12 +24,15 @@
         color: transparent !important;
     }
     .nav-link span{
-        color: white;
         padding: 0 0.3vw 0 0.3vw;
     }
     .nav-link:hover{
+        color: black !important; 
+        }
+    .mainLink:hover{
         color: white !important; 
         }
+            
     .navbar-expand-lg{
         width: 60%;
         text-align: center;

@@ -11,6 +11,14 @@
 * {
   font-family: Merriweather, Verdana, Tahoma, sans-serif; }
 
+.noPadding {
+  padding: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+.noMargin {
+  margin: 0 !important; }
+
 .header {
   background-color: white; }
   .header .cabecera img {
@@ -123,9 +131,10 @@
     margin-left: 1.3vw;
     color: transparent !important; }
   .nav-link span {
-    color: white;
     padding: 0 0.3vw 0 0.3vw; }
   .nav-link:hover {
+    color: black !important; }
+  .mainLink:hover {
     color: white !important; }
   .navbar-expand-lg {
     width: 60%;
@@ -147,9 +156,6 @@
     background-color: #3c0c0c;
     border-top-left-radius: 3vw;
     border-top-right-radius: 3vw; } }
-
-.index__main {
-  background-color: #3c0c0c; }
 
 .main__parrafo {
   background-image: url(../Imagenes/condor.webp);
@@ -379,6 +385,13 @@
     font-size: 1.2vw;
     top: 0.5vw; } }
 
+@media only screen and (max-width: 572px) {
+  .colMyself {
+    padding: 0; }
+  .footer__myself p {
+    font-size: 2.3vw;
+    top: 0.5vw; } }
+
 .asideLeft--banner {
   grid-template-rows: 1fr 1fr 1fr;
   width: 40vw;
@@ -512,13 +525,17 @@
 .whatsappInput {
   position: relative;
   top: -2vw;
-  width: 30vw; }
+  width: 30vw;
+  font-size: 2vw; }
+  .whatsappInput ::placeholder {
+    font-size: 2vw; }
 
 #asideEnviar {
   width: 12vw;
   height: 4.5vw;
   position: relative;
-  top: -5vw; }
+  top: -5vw;
+  font-size: 2vw; }
 
 @keyframes pulse {
   0% {
@@ -549,12 +566,16 @@
   .whatsappInput {
     position: relative;
     top: -2vw;
-    width: 16vw; }
+    width: 16vw;
+    font-size: 1.5vw; }
+    .whatsappInput ::placeholder {
+      font-size: 1.5vw; }
   #asideEnviar {
     width: 7vw;
     height: 2.5vw;
     position: relative;
-    top: -5vw; }
+    top: -5vw;
+    font-size: 1.5vw; }
   @keyframes pulse {
     0% {
       box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
@@ -565,7 +586,6 @@
   background-image: url(../Imagenes/RAMA.png);
   background-repeat: no-repeat;
   background-size: 150% auto;
-  background-color: lightblue;
   background-position: -19.5vw -1vh; }
 
 .main__contacto--up {
@@ -650,9 +670,9 @@
     background-image: url(../Imagenes/RAMA.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
-    background-color: lightblue;
     background-position: -2.5vw -1vw;
-    width: 100vw; }
+    width: 100vw;
+    margin-top: 2vw; }
   .main__contacto--up {
     text-align: center;
     display: grid;
@@ -745,9 +765,6 @@
   height: 70vw;
   margin-bottom: 2vw; }
 
-.quienSoy__main {
-  background-color: rgba(222, 184, 135, 0.527); }
-
 .quienSoy__right {
   grid-area: 1 / 1 / 2 / 2;
   display: grid;
@@ -796,6 +813,8 @@
 @media only screen and (min-width: 992px) {
   .container__quienSoy {
     width: 60%; }
+  .quienSoy__main {
+    margin-top: 2vw; }
   .quienSoy {
     display: grid;
     grid-template-rows: 1fr;
@@ -863,9 +882,6 @@
   width: 100%;
   outline: double 2vw black; }
 
-.clientes__main {
-  background-color: rgba(238, 228, 165, 0.778); }
-
 #deniro {
   font-size: 5vw; }
 
@@ -915,7 +931,7 @@
     top: 3vw;
     outline: double 2vw black; }
   .clientes__main {
-    background-color: rgba(238, 228, 165, 0.778); }
+    margin-top: 2vw; }
   #deniro {
     font-size: 3vw; }
   #hugest {
@@ -935,293 +951,92 @@
   .cliente3--right p {
     padding: 0 2vw 0 2vw; } }
 
-.servicios__main {
-  background-color: rgba(218, 226, 55, 0.441); }
+.serviciosBanners {
+  padding: 0;
+  width: 100vw; }
+  .serviciosBanners img {
+    width: 86%;
+    margin-top: 1vw;
+    margin-bottom: 1vw; }
 
-.serviciosBanners img {
-  width: 90%;
-  margin-top: 1vw;
-  margin-bottom: 1vw; }
+.main__titulo--servicios {
+  font-size: 4vw;
+  color: white;
+  background-color: black;
+  height: 100%;
+  padding: 1vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  letter-spacing: 0.1vw; }
 
-.servicios--botones {
-  display: none; }
-
-/* .servicios__main{
-    background-color: #c1c1b37a;
-    border-left: none;
-    background-color: white;
-    height: 34.5vw;
-}
-
-.main__servicios--banners{
-    background-color: black;
-    height: 34.5vw;
-
-}
-.main__servicios--botones{
-    position: relative;
-    justify-items: center;
-    align-items: center;
-    background-color: black;
-}
-.main__servicios--botones p{
-    font-size: 4vh;
-    height: 100%;
-    width: 100%;
-    padding-left: 1vh;
-    border: solid 0.3vh black;
-    border-top-right-radius: 3vh;
-    border-bottom-right-radius:3vh ;
-    /* text-shadow: 20vw 10vh 0.8vh #333; */
-/* }
-.googleAds--boton{
-    text-shadow: 23vw 9vh 0.8vh #333;
-    background-color: white;
-    margin-left: 0.5vh;
-}
-.mostrarFacebook{
-    height: 14.5vh;
-    width: 35.2vw;
-    background-color: green;
-    opacity: 1%;
-    top:55vh;
-    left:50.5vw;
-}
-.mostrarGoogle{
-    height: 14.5vh;
-    width: 35.2vw;
-    background-color: green;
-    opacity: 1%;
-    top:55vh;
-    left:14.5vw;
-}
-.mostrarInstagram{
-    height: 14.5vh;
-    width: 35.2vw;
-    background-color: green;
-    opacity: 1%;
-    top:71vh;
-    left:14.5vw;
-}
-.mostrarWebDesign{
-    height: 14.5vh;
-    width: 35.2vw;
-    background-color: green;
-    opacity: 1%;
-    top:70.5vh;
-    left:50.5vw;
-}
-.mostrarGoogle:hover + .mg{
-    transition: 1s;
-    opacity: 100%;
-}
-.mostrarFacebook:hover + .mf{
-    transition: 1s;
-    opacity: 100%;
-}
-.mostrarInstagram:hover + .mi{
-    transition: 1s;
-    opacity: 100%;
-}
-.mostrarWebDesign:hover + .mw{
-    transition: 1s;
-    opacity: 100%;
-}
-.facebookAds--boton{
-    text-shadow: 21vw 9vh 0.8vh #333;
-    background-color: white;
-}
-.instagramAds--boton{
-    text-shadow: 20vw 9vh 0.8vh #333;
-    background-color: white;
-    margin-left: 0.5vh;
-    border-bottom-left-radius: 5vh;
-}
-.webDesign--boton{
-    text-shadow: 22.5vw 9vh 0.8vh #333;
-    background-color: white;
-}
-.mf{
-    opacity:0;
-}
-.mi{
-    opacity: 0;
-}
-.mw{
-    opacity: 0;
-}
-.mg{
-    opacity: 0;
-}*/
 @media only screen and (min-width: 992px) {
   .servicios__main {
-    background-color: rgba(218, 226, 55, 0.441);
-    height: 40.5vw; }
+    height: 40.5vw;
+    margin: 0;
+    margin-top: 2vw; }
+    .servicios__main .row {
+      margin: 0; }
   .main__servicios--banners {
     overflow: auto;
-    height: 37.5vw;
+    height: 35.5vw;
     width: 57vw;
     position: relative;
     left: 20vw; }
-  .serviciosBanners img {
-    width: 56vw;
-    height: 17vw;
-    margin-top: 1vw;
-    margin-bottom: 1vw; }
-  .servicios--botones {
-    display: none; }
-  /* .servicios__main{
-            background-color: #c1c1b37a;
-            border-width: 3vh;
-            height: 38.5vw;
-            border-left: none;
-            background-color: white;
-            overflow: auto;
-            box-shadow: 1.5vh 2vh 2vh 0 black;
-                    
-        }
-        .serviciosBanners{
-            height: 34.5vw;
-        }
-        
-        .main__servicios--banners{
-            align-items: center;
-            justify-items: center;
-            background-color: black;
-        }
-        .main__servicios--botones p{
-            display: block;
-        }
-        .main__servicios--botones{
-            justify-items: center;
-            align-items: center;
-            background-color: black;
-        }
-        .borrarRow{
-            position: absolute;
-            height: 1vh;
-        }
-        .main__servicios--botones p{
-            font-size: 4vw;
-            height: 60%;
-            width: 60%;
-            padding-left: 1vw;
-            border: solid 0.3vw white;
-            border-top-right-radius: 3vh;
-            border-bottom-right-radius:3vh ;
-        }
-        .mostrarFacebook{
-            height: 14.5vw;
-            width: 30.2vw;
-            background-color: green;
-            opacity: 1%;
-            position: absolute;
-            top:38.5vw;
-            
-            left:52.5vw;
-        }
-        .mostrarGoogle{
-            height: 14.5vw;
-            width: 30.2vw;
-            background-color: green;
-            opacity: 1%;
-            position: absolute;
-            top:39vh;
-            left:19.5vw;
-        }
-        .mostrarInstagram{
-            height: 14.5vw;
-            width: 30.2vw;
-            background-color: green;
-            opacity: 1%;
-            position: absolute;
-            top:52.5vw;
-            left:19.5vw;
-        }
-        .mostrarWebDesign{
-            height: 14.5vw;
-            width: 30.2vw;
-            background-color: green;
-            opacity: 1%;
-            position: absolute;
-            top:52.5vw;
-            left:52.5vw;
-        }
-        .mostrarGoogle:hover + .mg{
-            transition: 1s;
-            opacity: 100%;
-        }
-        .mostrarFacebook:hover + .mf{
-            transition: 1s;
-            opacity: 100%;
-        }
-        .mostrarInstagram:hover + .mi{
-            transition: 1s;
-            opacity: 100%;
-        }
-        .mostrarWebDesign:hover + .mw{
-            transition: 1s;
-            opacity: 100%;
-        }
-        .googleAds--boton{
-        text-shadow: 23vw 9vh 0.8vh #333;
-        background-color: white;
-        position: relative;
-            top:-20vw;
-            left: 10.3vw;
-        }
-        .facebookAds--boton{
-            text-shadow: 21vw 9vh 0.8vh #333;
-            background-color: white;
-            position: relative;
-            top:-20vw;
-            left:-8vw;
-        }
-        .instagramAds--boton{
-            text-shadow: 20vw 9vh 0.8vh #333;
-            background-color: white;
-            border-bottom-left-radius: 5vh;
-            position: relative;
-            top: -27vw;
-            left:10.3vw;
-        
-        }
-        .webDesign--boton{
-            text-shadow: 22.5vw 9vh 0.8vh #333;
-            background-color: white;
-            position: relative;
-            top: -27vw;
-            left:-8vw;
-        
-        }
-        .mf{
-            opacity:0;
-        }
-        .mi{
-            opacity: 0;
-        }
-        .mw{
-            opacity: 0;
-        }
-        .mg{
-            opacity: 1;
-        }
-        .main__servicios--banners img{
-            height: 18.5vh;
-            width: 62vw;
-            position: absolute;
-            left:20.25vw;
-            top: 18.2vh;
-        }
-         */ }
+    .main__servicios--banners img {
+      width: 56vw;
+      height: 17vw;
+      margin-top: 1vw;
+      margin-bottom: 1vw; }
+  .main__titulo--servicios {
+    font-size: 2.7vw;
+    height: 5vw;
+    padding: 0;
+    letter-spacing: 0.6vw;
+    padding-top: 0.8vw; } }
 
 @media only screen and (min-width: 1358px) {
   .servicios__main {
-    background-color: rgba(218, 226, 55, 0.441);
     height: 39vw; }
   .main__servicios--banners {
     overflow: auto;
-    height: 37.5vw;
+    height: 34vw;
     width: 56vw;
     position: relative;
     left: 21vw; } }
+
+.index__main {
+  background-color: #3c0c0c; }
+
+.servicios__main {
+  background-color: rgba(218, 226, 55, 0.441); }
+
+.clientes__main {
+  background-color: rgba(238, 228, 165, 0.778); }
+
+.quienSoy__main {
+  background-color: rgba(222, 184, 135, 0.527); }
+
+.contacto__main {
+  background-color: lightblue; }
+
+@media only screen and (min-width: 992px) {
+  .headerMain #navbarNav {
+    background-color: #3c0c0c; }
+  .headerMain .nav-link span {
+    color: white !important; }
+  .headerServicios #navbarNav {
+    background-color: rgba(218, 226, 55, 0.441); }
+  .headerServicios .nav-link span {
+    color: black; }
+  .headerClientes #navbarNav {
+    background-color: rgba(238, 228, 165, 0.778); }
+  .headerClientes .nav-link span {
+    color: black; }
+  .headerQuienSoy #navbarNav {
+    background-color: rgba(222, 184, 135, 0.527); }
+  .headerQuienSoy .nav-link span {
+    color: black; }
+  .headerContacto #navbarNav {
+    background-color: lightblue; }
+  .headerContacto .nav-link span {
+    color: black; } }

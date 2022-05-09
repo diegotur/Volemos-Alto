@@ -38,12 +38,17 @@
     position: relative;
     top:-2vw;
     width: 30vw;
+    font-size: 2vw;
+    ::placeholder{
+        font-size: 2vw;
+    }
 }
 #asideEnviar{
     width: 12vw;
     height: 4.5vw;
     position: relative;
     top:-5vw;
+    font-size: 2vw;
 }
 @keyframes pulse {
     0% {
@@ -82,12 +87,18 @@
     position: relative;
     top:-2vw;
     width: 16vw;
+    font-size: 1.5vw;
+    ::placeholder{
+        font-size: 1.5vw;
+    }
 }
 #asideEnviar{
     width: 7vw;
     height: 2.5vw;
     position: relative;
     top:-5vw;
+    font-size: 1.5vw;
+
 }
 @keyframes pulse {
     0% {

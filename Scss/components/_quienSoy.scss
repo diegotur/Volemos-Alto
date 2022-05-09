@@ -7,9 +7,7 @@
     height: 70vw;
     margin-bottom: 2vw;
 }
-.quienSoy__main{
-    background-color: rgba(222, 184, 135, 0.527);
-}
+
 .quienSoy__right{
     grid-area: 1 / 1 / 2 / 2;
     display: grid;
@@ -60,6 +58,9 @@
 @media only screen and (min-width: 992px) {
     .container__quienSoy{
     width: 60%;
+    }
+    .quienSoy__main{
+        margin-top: 2vw;
     }
     .quienSoy{
         display: grid;

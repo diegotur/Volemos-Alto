@@ -1,7 +1,14 @@
 *{
     font-family: Merriweather, Verdana, Tahoma, sans-serif;
 }
-
+.noPadding{
+    padding:0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.noMargin{
+    margin:0 !important;
+}
 
 .header{
     background-color: rgb(255, 255, 255);

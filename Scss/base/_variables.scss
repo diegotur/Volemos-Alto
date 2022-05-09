@@ -8,3 +8,15 @@
     align-items: center;
     text-align: center;
 }
+
+$bgColor:(
+indexBg: rgb(60, 12, 12),
+serviciosBg:rgba(218, 226, 55, 0.441),
+clientesBg: rgba(238, 228, 165, 0.778),
+quienSoyBg: rgba(222, 184, 135, 0.527),
+contactoBg: rgba(173, 216, 230, 1),
+);
+
+@mixin bgColor ($bgColor){
+    background-color: $bgColor;
+}
