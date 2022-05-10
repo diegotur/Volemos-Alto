@@ -2,21 +2,17 @@
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
-    margin: 0;
-    padding: 0;
+    @extend %reset;
     height: 70vw;
     margin-bottom: 2vw;
 }
 
 .quienSoy__right{
     grid-area: 1 / 1 / 2 / 2;
-    display: grid;
+    @extend %grid-center;
     grid-template-rows: 1fr 1fr;
     grid-template-columns:1fr 2fr;
-    justify-items: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+    @extend %reset
 }
 #quienSoy--span1{
     grid-area: 1 / 2 / 2 / 3;
@@ -27,9 +23,7 @@
     width: 100%;
     position: relative;
     top:6.9vw;
-/*  border-bottom: solid 0.2vh black;
-    border-left: solid 0.2vh black;
- */}
+}
 #quienSoy--span2{
     grid-area: 2 / 1 / 3 / 2;
     background-image: url(../Imagenes/memi.jpg);
@@ -63,61 +57,38 @@
         margin-top: 2vw;
     }
     .quienSoy{
-        display: grid;
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr;
-        margin: 0;
-        padding: 0;
         height: 34.5vw;
     }
     .quienSoy__right{
-        grid-area: 1 / 1 / 2 / 2;
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns:1fr 2fr;
-        justify-items: center;
-        align-items: center;
-        margin: 0;
-        padding: 0;
         width: 60%;
         margin-left: 20vw;
         height: 34.5vw;
     }
     #quienSoy--span1{
-        grid-area: 1 / 2 / 2 / 3;
-        background-image: url(../Imagenes/epecuen2.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% auto;
         height: 120%;
         width: 100%;
         position: relative;
         top: 1.8vw;
     }
     #quienSoy--span2{
-        grid-area: 2 / 1 / 3 / 2;
         background-image: url(../Imagenes/memi.jpg);
         background-repeat: no-repeat;
         background-size: auto 140%;
-        height: 100%;
         transform: scale(1.3);
-        position: relative;
         left: 8.3vw;
         top: -4.6vw;
         margin-bottom: -4vw;
     }
     .quienSoy__right h2{
-        text-align: center;
         font-size: 3vw;
         color: black;
         margin-top: -3vw;
     }
     .quienSoy__right h6{
-        width: 90%;
         height: 70%;
         font-size: 1.3vw;
         color: black;
         padding-left: 3vw;
-        text-align: center;
     }
 }
 

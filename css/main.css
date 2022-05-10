@@ -1,12 +1,16 @@
-.reset, .main__parrafo3 {
+.reset, .main__parrafo3, .quienSoy, .quienSoy__right {
   padding: 0;
   margin: 0; }
 
-.footer__links, .footer__contacto, .footer__myself, .asideLeft--banner, .grid__asideRight, .main__contacto--up, .contacto__formulario, .form__left {
+.footer__links, .footer__contacto, .footer__myself, .asideLeft--banner, .grid__asideRight, .main__contacto--up, .contacto__formulario, .form__left, .quienSoy__right {
   display: grid;
   justify-items: center;
   align-items: center;
   text-align: center; }
+
+.footer__links, .form__left {
+  width: 100%;
+  height: 100%; }
 
 * {
   font-family: Merriweather, Verdana, Tahoma, sans-serif; }
@@ -151,7 +155,7 @@
     left: 1vw;
     bottom: -2vw;
     width: 55vw;
-    border: solid white;
+    border: double 0.4vw black;
     border-bottom: none;
     background-color: #3c0c0c;
     border-top-left-radius: 3vw;
@@ -252,7 +256,7 @@
   .main__titulo {
     font-size: 1.5vw;
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.426);
     height: 5vw;
     padding: 0;
     letter-spacing: 0.3vw;
@@ -268,9 +272,7 @@
 
 .footer__links {
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  height: 100%;
-  width: 100%; }
+  grid-template-columns: 1fr 1fr; }
   .footer__links i {
     text-decoration: none;
     font-size: 5vw;
@@ -341,26 +343,29 @@
     font-size: 1.6vw;
     margin: 0;
     padding-top: 1vh; }
-  .footer__contacto--items p {
-    font-size: 1.2vw;
-    margin: 0 !important; }
-  .footer__contacto--items img {
-    height: 4vw;
-    position: absolute;
-    top: 52.5vw;
-    left: 28vw; }
+  .footer__contacto--items {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 1fr 2fr 1fr; }
+    .footer__contacto--items p {
+      font-size: 1.2vw;
+      margin: 0 !important; }
+    .footer__contacto--items img {
+      height: 4vw;
+      position: relative;
+      bottom: 1vw; }
   #bandera {
     display: flex;
     height: 4vw;
-    position: absolute;
-    top: 52.5vw;
-    left: 62vw;
-    margin-bottom: 1vh; }
+    position: relative;
+    left: 1.5vw; }
   .footer__myself {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr; }
     .footer__myself img {
-      height: 4vw;
+      height: 5vw;
       border: double 0.7vh rgba(232, 219, 219, 0.358);
       margin-top: 1vw; }
     .footer__myself p {
@@ -373,14 +378,9 @@
       left: -3vw; } }
 
 @media only screen and (min-width: 1358px) {
-  .footer__contacto--items img {
-    top: 52vw; }
-  #bandera {
-    top: 52vw;
-    left: 62vw; }
   .footer__myself img {
     height: 6vw;
-    margin-bottom: 1vw; }
+    margin-top: 0.5vw; }
   .footer__myself p {
     font-size: 1.2vw;
     top: 0.5vw; } }
@@ -594,8 +594,9 @@
   height: 8vw; }
 
 .contacto__titulo b {
-  font-size: 3vw;
-  color: white; }
+  font-size: 2.6vw;
+  color: white;
+  text-transform: uppercase; }
 
 .contacto__formulario {
   grid-template-rows: 2fr 2fr 1fr;
@@ -619,9 +620,7 @@
       font-size: 4vw; }
 
 .form__left {
-  grid-template-rows: repeat(4 1fr);
-  height: 100%;
-  width: 100%; }
+  grid-template-rows: repeat(4 1fr); }
   .form__left input {
     font-style: italic;
     font-size: 4vw;
@@ -683,7 +682,7 @@
     background-color: rgba(0, 0, 0, 0.436);
     height: 5vw; }
   .contacto__titulo b {
-    font-size: 2.5vw;
+    font-size: 2vw;
     color: white; }
   .contacto__formulario {
     display: grid;
@@ -760,20 +759,13 @@
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
-  margin: 0;
-  padding: 0;
   height: 70vw;
   margin-bottom: 2vw; }
 
 .quienSoy__right {
   grid-area: 1 / 1 / 2 / 2;
-  display: grid;
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 2fr;
-  justify-items: center;
-  align-items: center;
-  margin: 0;
-  padding: 0; }
+  grid-template-columns: 1fr 2fr; }
 
 #quienSoy--span1 {
   grid-area: 1 / 2 / 2 / 3;
@@ -783,10 +775,7 @@
   height: 139%;
   width: 100%;
   position: relative;
-  top: 6.9vw;
-  /*  border-bottom: solid 0.2vh black;
-    border-left: solid 0.2vh black;
- */ }
+  top: 6.9vw; }
 
 #quienSoy--span2 {
   grid-area: 2 / 1 / 3 / 2;
@@ -816,56 +805,33 @@
   .quienSoy__main {
     margin-top: 2vw; }
   .quienSoy {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    margin: 0;
-    padding: 0;
     height: 34.5vw; }
   .quienSoy__right {
-    grid-area: 1 / 1 / 2 / 2;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 2fr;
-    justify-items: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
     width: 60%;
     margin-left: 20vw;
     height: 34.5vw; }
   #quienSoy--span1 {
-    grid-area: 1 / 2 / 2 / 3;
-    background-image: url(../Imagenes/epecuen2.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
     height: 120%;
     width: 100%;
     position: relative;
     top: 1.8vw; }
   #quienSoy--span2 {
-    grid-area: 2 / 1 / 3 / 2;
     background-image: url(../Imagenes/memi.jpg);
     background-repeat: no-repeat;
     background-size: auto 140%;
-    height: 100%;
     transform: scale(1.3);
-    position: relative;
     left: 8.3vw;
     top: -4.6vw;
     margin-bottom: -4vw; }
   .quienSoy__right h2 {
-    text-align: center;
     font-size: 3vw;
     color: black;
     margin-top: -3vw; }
   .quienSoy__right h6 {
-    width: 90%;
     height: 70%;
     font-size: 1.3vw;
     color: black;
-    padding-left: 3vw;
-    text-align: center; } }
+    padding-left: 3vw; } }
 
 .cliente1--left img {
   width: 100%;
