@@ -16,13 +16,16 @@
         padding-top: 10%;
     }
 }
+.alturaCol{
+    height:17.5vw;
+}
 .main__parrafo2{
     background-image: url(../Imagenes/atardecer1.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     p{
         text-align: center;
-        padding: 2vh 2vw;
+        padding: 1vw 2vw 0 2vw;
         font-size: 4.4vw;
         height: 54vw;
         padding-top: 20%;
@@ -64,17 +67,16 @@
     display: hidden;
 }
 @media only screen and (min-width: 992px) {
-    .index__main{
+    /* .index__main{
         margin-top: 2vw;
-    }
+    } */
     .container__main{
         background-image: url(../Imagenes/condor.webp);
         background-repeat: no-repeat;
         background-size: 100% auto;
         width: 60vw;
-        margin-top: 1vh;
         position: relative;
-        left: 22vw;
+        left: 19vw;
     }
     .main__parrafo{
         background-image: none;

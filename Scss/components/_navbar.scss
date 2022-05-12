@@ -19,6 +19,7 @@
 
     .nav-link {
         font-size:1vw;
+        width:10vw;
         margin-top: 1vw;
         margin-left: 1.3vw;
         color: transparent !important;
@@ -32,28 +33,27 @@
     .mainLink:hover{
         color: white !important; 
         }
-            
+    .noMarginRight{
+        margin-right: 0 !important;
+    }
     .navbar-expand-lg{
-        width: 60%;
+        width: 65%;
         text-align: center;
     }
     #logoNavBar{
-        display: flex;
-        width: 8vw;
-        position: absolute;
-        left:-20vw;
-        top:-0.6vw;
+        display: none;
     }
     #navbarNav{
         height: 3.5vw;
         position: absolute;
         left: 1vw;
         bottom:-2vw;
-        width: 55vw;
         border: double 0.4vw black;
         border-bottom: none;
+        border-right: none;
         background-color: rgb(60, 12, 12);
         border-top-left-radius: 3vw;
         border-top-right-radius: 3vw;
+        padding-right: 2vw;
     }
 }
