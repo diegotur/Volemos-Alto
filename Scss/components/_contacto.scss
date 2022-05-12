@@ -105,15 +105,15 @@
         width: 100vw;
         margin-top: 2vw;
     }
+    .contacto__titulo{
+        padding: 0 !important;
+    }
     .main__contacto--up{
-        text-align: center;
-        display: grid;
-        justify-items: center;
-        align-items: center;
         position: relative;
         /* background-color: rgba(148, 246, 182, 0.586); */
         background-color: rgba(0, 0, 0, 0.436);
         height: 5vw;
+        padding: 0 !important;
     }
     
     .contacto__titulo b{

@@ -16,9 +16,6 @@
         padding-top: 10%;
     }
 }
-.alturaCol{
-    height:17.5vw;
-}
 .main__parrafo2{
     background-image: url(../Imagenes/atardecer1.jpg);
     background-repeat: no-repeat;
@@ -67,9 +64,9 @@
     display: hidden;
 }
 @media only screen and (min-width: 992px) {
-    /* .index__main{
+    .index__main{
         margin-top: 2vw;
-    } */
+    }
     .container__main{
         background-image: url(../Imagenes/condor.webp);
         background-repeat: no-repeat;
@@ -83,9 +80,9 @@
         height: fit-content;
         p{
             text-align: center;
-            font-size: 1.8vw;
+            font-size: 1.6vw;
             background-color: rgba(242, 236, 236, 0.526);
-            height: 19.4vw;
+            height: 17.5vw;
             padding-top: 10%;
             margin-bottom: 0;
         }
@@ -96,8 +93,8 @@
         p{
             text-align: center;
             font-size: 1.5vw;
-            height: 13vw;
-            padding-top: 8%;
+            height: 15vw;
+            padding-top: 15%;
             background-color: rgba(242, 236, 236, 0.526);
         }
     }
@@ -108,8 +105,8 @@
             color: black;
             font-size: 3.5vw;
             background-color: rgba(242, 236, 236, 0.526);
-            height: 13vw;
-            padding-top: 12%;
+            height: 15vw;
+            padding-top: 18%;
             text-shadow: 0.2vh 0 0.5vh #000;
         }
     }
