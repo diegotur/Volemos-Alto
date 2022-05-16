@@ -19,7 +19,7 @@
 
     .nav-link {
         font-size:1vw;
-        width:10vw;
+        width:11.5vw;
         margin-top: 1vw;
         margin-left: 1.3vw;
         color: transparent !important;
@@ -29,9 +29,6 @@
     }
     .nav-link:hover{
         color: black !important; 
-        }
-    .mainLink:hover{
-        color: white !important; 
         }
     .noMarginRight{
         margin-right: 0 !important;
@@ -46,13 +43,8 @@
     #navbarNav{
         height: 3vw;
         position: absolute;
-        left: 1vw;
+        left: -2.8vw;
         bottom:-2vw;
-        border: double 0.4vw black;
-        border-bottom: none;
-        background-color: rgb(60, 12, 12);
-        border-top-left-radius: 3vw;
-        border-top-right-radius: 3vw;
         padding-right: 2vw;
     } 
 }

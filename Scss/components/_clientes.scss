@@ -40,68 +40,61 @@
 }
 .cliente3--right p{
     padding: 0 2vw 0 2vw;
-    
+}
+#carruselClientes{
+    display: none;
 }
 @media only screen and (min-width: 992px) {
-
-    .clientes__cuerpo{
-        width: 60%;
-        height: 34.5vw;
-        overflow: auto;
-        position: relative;
-        background-color: rgba(129, 94, 59, 0.142);
-        
-    }
-    
-    .cliente1--left img{
-        width: 70%;
-        top:12vw;
-        left:2vw;
-        outline: double 2vw black;
-    }
-    .cliente2--right img{
-        width: 70%;
-        position: relative;
-        left:2vw;
-        top:2vw;
-        outline: double 2vw black;
-    }
-    .cliente3--left img{
-        width: 70%;
-        position: relative;
-        left:2vw;
-        top:3vw;
-        outline: double 2vw black;
-    }
     .clientes__main{
         margin-top:2vw;
     }
-    #deniro{
-        font-size: 3vw;
+    .clientes__cuerpo{
+        display:none;
     }
-    #hugest{
-        font-size: 3vw;
+    #carruselClientes{
+        display:flex;
+        height: 40.5vw;
+        width: 59.3vw;
+        position: relative;
+        left: 18.3vw;
+        background-color: rgb(66, 4, 4);
+        color: white;
+        img{
+            width:20vw;
+            position: relative;
+            left: 6vw;
+            top: 12vw;
+            height: 21vw;
+        }
+        p{
+            width: 20vw;
+            font-size: 1.5vw;
+            position: relative;
+            left: 30vw;
+            top:-9vw;
+            text-align: center;
+            margin: 0;
+        }
+    }
+    #deniro2{
+        font-size: 2vw !important;
+        width: 23vw !important;
+        position: relative;
+        left:28.5vw !important;
+        
+
+    }
+    #hugest2{
+        font-size: 2vw !important;
+        width: 23vw !important;
+        position: relative;
+        left:28.5vw !important;
     }
     
-    #andrada{
-        font-size: 3vw;
-    }
-    .cliente1--right{
-        font-size: 1.5vw;
-        width: 90%;
-    }
-    .cliente2--left{
-        font-size: 1.5vw;
-    }
-    .cliente3--right{
-        font-size: 1.5vw;
-        padding-bottom: 2vw;
-    }
-    .cliente1--right p{
-        padding: 0 2vw 0 2vw;
-    }
-    .cliente3--right p{
-        padding: 0 2vw 0 2vw;
-        
+    #andrada2{
+        font-size: 2vw !important;
+        width: 23vw !important;
+        position: relative;
+        left:28.5vw !important;
     }
 }

@@ -95,8 +95,6 @@
 
 
 @media only screen and (min-width: 992px) {
-
-    
     .contacto__main{
         background-image: url(../Imagenes/RAMA.png);
         background-repeat: no-repeat;
@@ -107,87 +105,97 @@
     }
     .contacto__titulo{
         padding: 0 !important;
+        font-size:1.2vw;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.426);
+        height: 4vw;
+        position: absolute;
+        z-index: 10;
+        width: 58.7vw;
+        left: 18.7vw;
+        padding: 0;
+        letter-spacing: 0.3vw;
+        padding-top: 1.5vw;
     }
     .main__contacto--up{
         position: relative;
         /* background-color: rgba(148, 246, 182, 0.586); */
         background-color: rgba(0, 0, 0, 0.436);
-        height: 5vw;
+        height: 0;
         padding: 0 !important;
     }
-    
     .contacto__titulo b{
-        font-size: 2vw;
+        font-size: 1vw;
         color: white;
+        position: relative;
+        top:1.2vw;
     }
-    
     .contacto__formulario{
-        display: grid;
         grid-template-rows:  1fr;
         grid-template-columns: 2fr 2fr 1fr;
-        justify-items: center;
-        align-items: center;
-        width: 60%;
+        width: 58.75vw;
         height: 34.5vw;
         position: relative;
-        left:22vw;
+        left:19.5vw;
+        top:2vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        background-color: rgba(255, 255, 255, 0.549);
+        input:focus{
+            outline: none;
+            color: white;
+            font-size: 1.4vw;
+            &::placeholder{
+                color: transparent;
+            } 
+        }
+        textarea{
+            height: 19vw;
+            width: 27vw;
+            position: relative;
+            border: double 0.5vw black;
+            font-style: italic;
+            font-size:1.4vw;
+            left: -10vw;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgba(0, 0, 0, 0.436);
+            resize: none;
+            &:focus{
+                color: white;
+                outline: none;
+                font-size: 1.4vw;
+            &::placeholder{
+                   color: transparent;
+            }
+            }
+            &::placeholder{
+                color:  white;
+                font-size: 1.5vw;
+            }
+        }
     }
     .form__left{
         display: grid;
         grid-template-rows: repeat(4 1fr);
         justify-items: center;
         align-items: center;
-    }
-    
-    .form__left input{
-        font-style: italic;
-        font-size:0.7vw;
-        font-family: 'Times New Roman', Times, serif;
-        width: 23vw;
-        height: 4vw;
-        position: relative;
-        left:-1vw; 
-        color: white;
-        background-color: rgba(0, 0, 0, 0.436);
-        border: double 0.5vw black;
-    }
-        
-    .form__left input::placeholder{
-        color: white;
-        font-size: 1.4vw;
-    }
-    .contacto__formulario textarea{
-        height: 19vw;
-        width: 27vw;
-        position: relative;
-        border: double 0.5vw black;
-        font-style: italic;
-        font-size:1.4vw;
-        left: -10vw;
-        color: white;
-        font-family: 'Times New Roman', Times, serif;
-        background-color: rgba(0, 0, 0, 0.436);
-        resize: none;
-    }
-    .contacto__formulario textarea:focus{
-        color: white;
-        outline: none;
-        font-size: 1.4vw;
-    }
-    .contacto__formulario input:focus{
-        outline: none;
-        color: white;
-        font-size: 1.4vw;
-    }
-    .contacto__formulario input:focus::placeholder{
-        color: transparent;
-    }
-    .contacto__formulario textarea:focus::placeholder{
-        color: transparent;
-    }
-    .contacto__formulario textarea::placeholder{
-        color: white;
-        font-size: 1.4vw;
+        input{
+            font-style: italic;
+            font-size:1.4vw;
+            font-family: 'Times New Roman', Times, serif;
+            width: 18vw;
+            height: 4vw;
+            position: relative;
+            left:0; 
+            color: white;
+            background-color: rgba(0, 0, 0, 0.436);
+            border: double 0.5vw black;
+            &::placeholder{
+                color: white;
+                font-size: 1.4vw;
+            }
+        }
     }
     #enviar{
         border: double 0.5vw black;

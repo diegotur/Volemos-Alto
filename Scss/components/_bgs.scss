@@ -13,7 +13,7 @@
 .contacto__main{
     @include bgColor (map-get($bgColor, contactoBg));
 }
-
+/* 
 @media only screen and (min-width: 992px) {
 
 .headerMain{
@@ -66,4 +66,4 @@
             }
         }
 }
-}
+} */
