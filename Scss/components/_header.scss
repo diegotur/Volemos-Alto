@@ -64,47 +64,6 @@
 }   
 
 @media only screen and (min-width: 992px) {
-/* .header{
-    .titulo{
-        font-size: 3vw;
-        background-color: black;
-        box-sizing: border-box;
-        color: white;
-        letter-spacing: 1.5vw;
-        height: 4vw;
-        padding-top: 0.1vw;
-        span{
-            color: transparent;
-            text-shadow: none;
-            font-size: 0.6vw;
-        }
-    }
-    .subtitulo{
-        background-color: rgba(173, 216, 230, 0.308);
-        color: rgba(173, 216, 230, 0.758);
-        font-size: 1.8vw;
-        letter-spacing: 0.2vw;
-        text-shadow: 0.13vw 0 1.3vh #fff;
-        height: 3vw;
-        position: relative;
-        top: 0.1vw;
-        padding-top: 0.5vw;
-        span{
-            color: transparent;
-            text-shadow: none;
-            font-size: 0.6vw;
-        }
-    }
-    .bgSubtitulo{
-        position: relative;
-        z-index: 1;
-        background-color: black;
-        height: 3vw;
-        .exitosa{
-            color: rgba(251, 248, 248, 0.501);
-        }
-    }   
-} */
 .cabecera{
     display: none;
 }
@@ -139,18 +98,18 @@
     justify-content: center;
     top:-6.8vw;
     left:12.5vw;
-}
-.header__tituloDown p{
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.550);
-    color: rgba(173, 216, 230, 0.758);
-    width: 25vw;    
-    height: 4vw;
-    padding: 1.8vw 0 0.4vw 0;
-    font-size: 1.7vw;
-    text-align: center;
-    letter-spacing: 0.36vw;
-    text-shadow: 0.13vw 0 1.3vw #fff;
+    p{
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.550);
+        color: rgba(173, 216, 230, 0.758);
+        width: 25vw;    
+        height: 4vw;
+        padding: 1.8vw 0 0.4vw 0;
+        font-size: 1.7vw;
+        text-align: center;
+        letter-spacing: 0.36vw;
+        text-shadow: 0.13vw 0 1.3vw #fff;
+    }
 }
 #exitosa{
     text-align: center;
@@ -167,8 +126,6 @@
     border-bottom-left-radius: 0.65vw;
     top: 3.9vw;
 }
-
-
 .triangulo__UpLeft{
     width: 0;
     height: 0;

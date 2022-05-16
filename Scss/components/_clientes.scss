@@ -3,9 +3,7 @@
     position: relative;
     top: 26vw;
     outline: double 2vw black;
-
 }
-
 .cliente2--right img{
     width: 100%;
     position: relative;
@@ -15,31 +13,31 @@
     width: 100%;
     outline: double 2vw black;
 }
+
 #deniro{
     font-size: 5vw;
 }
 #hugest{
     font-size: 5vw;
 }
-
 #andrada{
     font-size: 5vw;
 }
 .cliente1--right{
     font-size: 3vw;
     width: 90%;
+    p{
+        padding: 0 2vw 0 2vw;
+    }
 }
 .cliente2--left{
     font-size: 3vw;
 }
 .cliente3--right{
     font-size: 3vw;
-}
-.cliente1--right p{
-    padding: 0 2vw 0 2vw;
-}
-.cliente3--right p{
-    padding: 0 2vw 0 2vw;
+    p{
+        padding: 0 2vw 0 2vw;
+    }
 }
 #carruselClientes{
     display: none;
@@ -81,8 +79,6 @@
         width: 23vw !important;
         position: relative;
         left:28.5vw !important;
-        
-
     }
     #hugest2{
         font-size: 2vw !important;
@@ -90,7 +86,6 @@
         position: relative;
         left:28.5vw !important;
     }
-    
     #andrada2{
         font-size: 2vw !important;
         width: 23vw !important;

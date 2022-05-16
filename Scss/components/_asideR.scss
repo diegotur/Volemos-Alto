@@ -13,9 +13,9 @@
     top:4vw;
     padding-bottom: 2vw;
 }
-.textIndex{
-    color:white;
-}
+    .textIndex{
+        color:white;
+    }
 }
 .whatsappAnim {
     background: #25d366;
@@ -63,13 +63,11 @@
 }
 @media only screen and (min-width: 992px) {
 .grid__asideRight{
-    display: grid;
     position: absolute;
     width: 20vw;
     top:12vw;
     left: -9vw;
     height: 38vw;
-    justify-items: center;
     p{
         font-size: 2.5vw;
         text-align: center;

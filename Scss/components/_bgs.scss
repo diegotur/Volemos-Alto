@@ -1,69 +1,15 @@
 .index__main{
-    @include bgColor (map-get($bgColor, indexBg));
+    @include bgColors (map-get($bgColor, indexBg));
 }
 .servicios__main{
-    @include bgColor (map-get($bgColor, serviciosBg));
+    @include bgColors (map-get($bgColor, serviciosBg));
 }
 .clientes__main{
-    @include bgColor (map-get($bgColor, clientesBg));
+    @include bgColors (map-get($bgColor, clientesBg));
 }
 .quienSoy__main{
-    @include bgColor (map-get($bgColor, quienSoyBg));
+    @include bgColors (map-get($bgColor, quienSoyBg));
 }
 .contacto__main{
-    @include bgColor (map-get($bgColor, contactoBg));
+    @include bgColors (map-get($bgColor, contactoBg));
 }
-/* 
-@media only screen and (min-width: 992px) {
-
-.headerMain{
-    #navbarNav{
-        @include bgColor (map-get($bgColor, indexBg));
-        }
-        .nav-link{
-            span{
-                color: white !important;
-            }
-        }
-}
-.headerServicios{
-    #navbarNav{
-        @include bgColor (map-get($bgColor, serviciosBg));
-        }
-        .nav-link{
-            span{
-                color: black;
-            }
-        }
-}
-.headerClientes{
-    #navbarNav{
-        @include bgColor (map-get($bgColor, clientesBg));
-        }
-        .nav-link{
-            span{
-                color: black;
-            }
-        }
-}
-.headerQuienSoy{
-    #navbarNav{
-        @include bgColor (map-get($bgColor, quienSoyBg));
-        }
-        .nav-link{
-            span{
-                color: black;
-            }
-        }
-}
-.headerContacto{
-    #navbarNav{
-        @include bgColor (map-get($bgColor, contactoBg));
-        }
-        .nav-link{
-            span{
-                color: black;
-            }
-        }
-}
-} */
