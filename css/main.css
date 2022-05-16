@@ -246,7 +246,7 @@
   #logoNavBar {
     display: none; }
   #navbarNav {
-    height: 3.5vw;
+    height: 3vw;
     position: absolute;
     left: 1vw;
     bottom: -2vw;
@@ -317,9 +317,11 @@
     background-image: url(../Imagenes/condor.webp);
     background-repeat: no-repeat;
     background-size: 100% auto;
-    width: 60vw;
+    width: 58.7vw;
     position: relative;
-    left: 19vw; }
+    left: 18.7vw;
+    margin-top: 4vw;
+    height: 32vw; }
   .main__parrafo {
     background-image: none;
     height: fit-content; }
@@ -336,7 +338,7 @@
     .main__parrafo2 p {
       text-align: center;
       font-size: 1.5vw;
-      height: 15vw;
+      height: 14.1vw;
       padding-top: 15%;
       background-color: rgba(242, 236, 236, 0.526); }
   .main__parrafo3 p {
@@ -345,20 +347,24 @@
     color: black;
     font-size: 3.5vw;
     background-color: rgba(242, 236, 236, 0.526);
-    height: 15vw;
+    height: 14.1vw;
     padding-top: 18%;
     text-shadow: 0.2vh 0 0.5vh #000; }
   .main__titulo {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     color: white;
     background-color: rgba(0, 0, 0, 0.426);
-    height: 5vw;
+    height: 4vw;
+    position: absolute;
+    z-index: 10;
+    width: 58.7vw;
+    left: 18.7vw;
     padding: 0;
     letter-spacing: 0.3vw;
     padding-top: 1.5vw; }
     .main__titulo span {
       color: lightblue;
-      font-size: 1.8vw;
+      font-size: 1.3vw;
       letter-spacing: 0.3vw; }
     .main__titulo img {
       width: 2%; }
@@ -1033,7 +1039,23 @@
   padding-bottom: 2vw;
   letter-spacing: 0.1vw; }
 
+#carruselServicios {
+  display: none; }
+
 @media only screen and (min-width: 992px) {
+  #carruselServicios {
+    display: flex;
+    height: 40.5vw;
+    width: 59.3vw;
+    position: relative;
+    left: 18.3vw;
+    background-color: black; }
+    #carruselServicios img {
+      width: 47.5vw;
+      position: relative;
+      left: 5.2vw;
+      top: 12vw;
+      height: 16vw; }
   .servicios__main {
     height: 40.5vw;
     margin: 0;
@@ -1041,38 +1063,27 @@
     .servicios__main .row {
       margin: 0; }
   .main__servicios--banners {
-    overflow: auto;
-    height: 35.5vw;
-    width: 57vw;
-    position: relative;
-    left: 20vw; }
-    .main__servicios--banners img {
-      width: 56vw;
-      height: 17vw;
-      margin-top: 1vw;
-      margin-bottom: 1vw; }
+    display: none; }
   .main__titulo--servicios {
-    font-size: 2.7vw;
+    position: absolute;
+    width: 50vw;
+    background-color: none;
+    left: 23vw;
+    font-size: 2vw;
     height: 5vw;
+    border-bottom: solid lightblue;
+    border-top: solid lightblue;
     padding: 0;
-    letter-spacing: 0.6vw;
+    margin-top: 3vw;
+    letter-spacing: 0;
+    z-index: 10;
     padding-top: 0.8vw; } }
-
-@media only screen and (min-width: 1358px) {
-  .servicios__main {
-    height: 39vw; }
-  .main__servicios--banners {
-    overflow: auto;
-    height: 34vw;
-    width: 56vw;
-    position: relative;
-    left: 21vw; } }
 
 .index__main {
   background-color: #3c0c0c; }
 
 .servicios__main {
-  background-color: rgba(218, 226, 55, 0.441); }
+  background-color: lightblue; }
 
 .clientes__main {
   background-color: rgba(238, 228, 165, 0.778); }
@@ -1089,7 +1100,7 @@
   .headerMain .nav-link span {
     color: white !important; }
   .headerServicios #navbarNav {
-    background-color: rgba(218, 226, 55, 0.441); }
+    background-color: lightblue; }
   .headerServicios .nav-link span {
     color: black; }
   .headerClientes #navbarNav {

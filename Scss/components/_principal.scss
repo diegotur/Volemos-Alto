@@ -71,9 +71,11 @@
         background-image: url(../Imagenes/condor.webp);
         background-repeat: no-repeat;
         background-size: 100% auto;
-        width: 60vw;
+        width: 58.7vw;
         position: relative;
-        left: 19vw;
+        left: 18.7vw;
+        margin-top: 4vw;
+        height: 32vw;
     }
     .main__parrafo{
         background-image: none;
@@ -93,7 +95,7 @@
         p{
             text-align: center;
             font-size: 1.5vw;
-            height: 15vw;
+            height: 14.1vw;
             padding-top: 15%;
             background-color: rgba(242, 236, 236, 0.526);
         }
@@ -105,23 +107,27 @@
             color: black;
             font-size: 3.5vw;
             background-color: rgba(242, 236, 236, 0.526);
-            height: 15vw;
+            height: 14.1vw;
             padding-top: 18%;
             text-shadow: 0.2vh 0 0.5vh #000;
         }
     }
 .main__titulo{
-        font-size:1.5vw;
+        font-size:1.2vw;
         color: white;
         background-color: rgba(0, 0, 0, 0.426);
-        height: 5vw;
+        height: 4vw;
+        position: absolute;
+        z-index: 10;
+        width: 58.7vw;
+        left: 18.7vw;
         padding: 0;
         letter-spacing: 0.3vw;
         padding-top: 1.5vw;
         
         span{
             color: lightblue;
-            font-size:1.8vw;
+            font-size:1.3vw;
             letter-spacing: 0.3vw;
         }
         img{
