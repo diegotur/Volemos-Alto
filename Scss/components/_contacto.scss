@@ -22,11 +22,12 @@
     grid-template-rows: 2fr 2fr 1fr;
     grid-template-columns: 1fr;
     height: 100vw;
+    margin: 0;
     textarea{
         height: 30vw;
-        width: 80vw;
+        width: 65vw;
         position: relative;
-        left:-25vw;
+        left:-17vw;
         border: double 1vw black;
         font-style: italic;
         font-size:4vw;
@@ -136,8 +137,7 @@
         width: 58.75vw;
         height: 34.5vw;
         position: relative;
-        left:19.5vw;
-        top:2vw;
+        left:18.7vw;
         margin-top: 2vw;
         margin-bottom: 2vw;
         background-color: rgba(255, 255, 255, 0.549);
@@ -180,6 +180,7 @@
         grid-template-rows: repeat(4 1fr);
         justify-items: center;
         align-items: center;
+        margin-top: 4vw;
         input{
             font-style: italic;
             font-size:1.4vw;
