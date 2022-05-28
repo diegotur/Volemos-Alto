@@ -4,22 +4,22 @@
 }
 
 .main__parrafo{
-    background-image: url(../Imagenes/condor.webp);
+    /* background-image: url(../Imagenes/condor.webp);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100% auto; */
     p{
-        text-align: center;
+        /* text-align: center;
         padding: 2vh 2vw;
         font-size: 4.2vw;
         background-color: rgba(242, 236, 236, 0.526);
         height: 54vw;
-        padding-top: 10%;
+        padding-top: 10%; */
     }
 }
 .main__parrafo2{
-    background-image: url(../Imagenes/atardecer1.jpg);
+    /* background-image: url(../Imagenes/atardecer1.jpg);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100% auto; */
     p{
         text-align: center;
         padding: 1vw 2vw 0 2vw;
@@ -32,14 +32,14 @@
 .main__parrafo3{
     @extend %reset;
     p{
-        text-align: center;
+        /* text-align: center;
         text-decoration: none;
         color: black;
         font-size: 8.4vw;
         background-color: rgba(242, 236, 236, 0.526);
         height: 54vw;
         padding-top: 30%;
-        text-shadow: 0.2vh 0 0.5vh #000;
+        text-shadow: 0.2vh 0 0.5vh #000; */
     }
     a{
         text-decoration: none;
@@ -68,70 +68,92 @@
         margin-top: 2vw;
     }
     .container__main{
-        background-image: url(../Imagenes/condor.webp);
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-        width: 58.7vw;
+        
+        width: 100vw;
         position: relative;
-        left: 18.7vw;
-        margin-top: 4vw;
-        height: 32vw;
+        
+        }
+    .columnaCaprichosa{
+        margin: 0 !important;
+        padding: 0 !important;
     }
     .main__parrafo{
-        background-image: none;
-        height: fit-content;
+        background-image: url(../Imagenes/condor.jpg);
+        background-repeat: no-repeat;
+        background-size: 99% auto;
+        height: 36vw;
+        margin-bottom: 1vw;
+        
         p{
             text-align: center;
-            font-size: 1.6vw;
-            background-color: rgba(242, 236, 236, 0.526);
-            height: 17.5vw;
-            padding-top: 10%;
+            font-size: 3vw;
+            background-color: rgba(242, 236, 236, 0.726);
+            height: 9vw;
+            padding-top: 0vw;
             margin-bottom: 0;
+            position: relative;
+            top:24vw;
+            width: 100%;
+
         }
     }
     .main__parrafo2{
-        background-image: none;
-        height: fit-content;
+        background-image: url(../Imagenes/condor2.jpg);
+        background-repeat: no-repeat;
+        background-size: 99% auto;
+        height: 36vw;
+        margin-bottom: 1vw;
         p{
+            font-size: 3vw;
             text-align: center;
-            font-size: 1.5vw;
-            height: 14.1vw;
-            padding-top: 15%;
-            background-color: rgba(242, 236, 236, 0.526);
+            height: 9vw;
+            padding: 0vw;
+            margin-bottom: 0;
+            position: relative;
+            top:24vw;
+            width: 100%;
+            background-color: rgba(242, 236, 236, 0.726);
         }
     }
     .main__parrafo3{
+        background-image: url(../Imagenes/condor3.jpg);
+        background-repeat: no-repeat;
+        background-size: 99% auto;
+        height: 31vw;
+        
         p{
             text-align: center;
             text-decoration: none;
             color: black;
             font-size: 3.5vw;
-            background-color: rgba(242, 236, 236, 0.526);
-            height: 14.1vw;
-            padding-top: 18%;
+            position: relative;
+            top:21vw;
+            width: 100%;
+            background-color: rgba(242, 236, 236, 0.726);
+            height: 9vw;
+            padding-top: 1.5vw;
             text-shadow: 0.2vh 0 0.5vh #000;
         }
     }
 .main__titulo{
-        font-size:1.2vw;
+        font-size:1.8vw;
         color: white;
         background-color: rgba(0, 0, 0, 0.426);
-        height: 4vw;
-        position: absolute;
+        height: 7vw;
+        position: relative;
         z-index: 10;
-        width: 58.7vw;
-        left: 18.7vw;
+        width: 100vw;
         padding: 0;
         letter-spacing: 0.3vw;
         padding-top: 1.5vw;
         
         span{
             color: lightblue;
-            font-size:1.3vw;
+            font-size:2vw;
             letter-spacing: 0.3vw;
         }
         img{
-            width: 2%;
+            width: 4%;
         }
     }
     .borrarBr{

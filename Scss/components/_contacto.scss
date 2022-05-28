@@ -1,5 +1,6 @@
 .contacto__main{
-    background-image: url(../Imagenes/RAMA.png);
+  /*   background-image: url(../Imagenes/RAMA.png); */
+    width: 100%;
     background-repeat: no-repeat;
     background-size: 150% auto;
     background-position: -19.5vw -1vh;
@@ -22,6 +23,7 @@
     grid-template-rows: 2fr 2fr 1fr;
     grid-template-columns: 1fr;
     height: 100vw;
+    margin: 0 !important;
     textarea{
         height: 30vw;
         width: 80vw;
@@ -43,6 +45,8 @@
 }
 .form__left{
     @extend %grid-center;
+    @extend %reset;
+    margin:0 !important;
     grid-template-rows: repeat(4 1fr);
     @extend %total-size;
     input{
@@ -60,7 +64,9 @@
         }
     }
 }
-
+.form__right{
+    margin:0 !important;
+}
 
 .contacto__formulario input:focus{
     outline: none;
@@ -91,9 +97,9 @@
     width: 20vw;
     border-top-left-radius: 2vw;
     border-bottom-right-radius: 2vw;    
-}
+} 
 
-
+/* 
 @media only screen and (min-width: 992px) {
     .contacto__main{
         background-image: url(../Imagenes/RAMA.png);
@@ -119,7 +125,6 @@
     }
     .main__contacto--up{
         position: relative;
-        /* background-color: rgba(148, 246, 182, 0.586); */
         background-color: rgba(0, 0, 0, 0.436);
         height: 0;
         padding: 0 !important;
@@ -212,4 +217,4 @@
         border-top-left-radius: 0.5vw;
         border-bottom-right-radius: 0.5vw;    
         }
-}    
+}     */

@@ -1,4 +1,4 @@
-.reset, .main__parrafo3, .quienSoy, .quienSoy__right {
+.reset, .main__parrafo3, .form__left, .quienSoy, .quienSoy__right {
   padding: 0;
   margin: 0; }
 
@@ -186,10 +186,9 @@
 
 @media only screen and (min-width: 992px) {
   .nav-link {
-    font-size: 1vw;
-    width: 11.5vw;
+    font-size: 1.8vw;
+    width: 18.5vw;
     margin-top: 1vw;
-    margin-left: 1.3vw;
     color: transparent !important; }
   .nav-link span {
     padding: 0 0.3vw 0 0.3vw; }
@@ -205,26 +204,26 @@
   #navbarNav {
     height: 3vw;
     position: absolute;
-    left: -2.8vw;
+    left: -15.8vw;
     bottom: -2vw;
     padding-right: 2vw; } }
 
 .main__parrafo {
-  background-image: url(../Imagenes/condor.webp);
-  background-repeat: no-repeat;
-  background-size: 100% auto; }
+  /* background-image: url(../Imagenes/condor.webp);
+    background-repeat: no-repeat;
+    background-size: 100% auto; */ }
   .main__parrafo p {
-    text-align: center;
-    padding: 2vh 2vw;
-    font-size: 4.2vw;
-    background-color: rgba(242, 236, 236, 0.526);
-    height: 54vw;
-    padding-top: 10%; }
+    /* text-align: center;
+        padding: 2vh 2vw;
+        font-size: 4.2vw;
+        background-color: rgba(242, 236, 236, 0.526);
+        height: 54vw;
+        padding-top: 10%; */ }
 
 .main__parrafo2 {
-  background-image: url(../Imagenes/atardecer1.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% auto; }
+  /* background-image: url(../Imagenes/atardecer1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto; */ }
   .main__parrafo2 p {
     text-align: center;
     padding: 1vw 2vw 0 2vw;
@@ -234,14 +233,14 @@
     background-color: rgba(242, 236, 236, 0.526); }
 
 .main__parrafo3 p {
-  text-align: center;
-  text-decoration: none;
-  color: black;
-  font-size: 8.4vw;
-  background-color: rgba(242, 236, 236, 0.526);
-  height: 54vw;
-  padding-top: 30%;
-  text-shadow: 0.2vh 0 0.5vh #000; }
+  /* text-align: center;
+        text-decoration: none;
+        color: black;
+        font-size: 8.4vw;
+        background-color: rgba(242, 236, 236, 0.526);
+        height: 54vw;
+        padding-top: 30%;
+        text-shadow: 0.2vh 0 0.5vh #000; */ }
 
 .main__parrafo3 a {
   text-decoration: none; }
@@ -266,60 +265,77 @@
   .index__main {
     margin-top: 2vw; }
   .container__main {
-    background-image: url(../Imagenes/condor.webp);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    width: 58.7vw;
-    position: relative;
-    left: 18.7vw;
-    margin-top: 4vw;
-    height: 32vw; }
+    width: 100vw;
+    position: relative; }
+  .columnaCaprichosa {
+    margin: 0 !important;
+    padding: 0 !important; }
   .main__parrafo {
-    background-image: none;
-    height: fit-content; }
+    background-image: url(../Imagenes/condor.jpg);
+    background-repeat: no-repeat;
+    background-size: 99% auto;
+    height: 36vw;
+    margin-bottom: 1vw; }
     .main__parrafo p {
       text-align: center;
-      font-size: 1.6vw;
-      background-color: rgba(242, 236, 236, 0.526);
-      height: 17.5vw;
-      padding-top: 10%;
-      margin-bottom: 0; }
+      font-size: 3vw;
+      background-color: rgba(242, 236, 236, 0.726);
+      height: 9vw;
+      padding-top: 0vw;
+      margin-bottom: 0;
+      position: relative;
+      top: 24vw;
+      width: 100%; }
   .main__parrafo2 {
-    background-image: none;
-    height: fit-content; }
+    background-image: url(../Imagenes/condor2.jpg);
+    background-repeat: no-repeat;
+    background-size: 99% auto;
+    height: 36vw;
+    margin-bottom: 1vw; }
     .main__parrafo2 p {
+      font-size: 3vw;
       text-align: center;
-      font-size: 1.5vw;
-      height: 14.1vw;
-      padding-top: 15%;
-      background-color: rgba(242, 236, 236, 0.526); }
-  .main__parrafo3 p {
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-size: 3.5vw;
-    background-color: rgba(242, 236, 236, 0.526);
-    height: 14.1vw;
-    padding-top: 18%;
-    text-shadow: 0.2vh 0 0.5vh #000; }
+      height: 9vw;
+      padding: 0vw;
+      margin-bottom: 0;
+      position: relative;
+      top: 24vw;
+      width: 100%;
+      background-color: rgba(242, 236, 236, 0.726); }
+  .main__parrafo3 {
+    background-image: url(../Imagenes/condor3.jpg);
+    background-repeat: no-repeat;
+    background-size: 99% auto;
+    height: 31vw; }
+    .main__parrafo3 p {
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      font-size: 3.5vw;
+      position: relative;
+      top: 21vw;
+      width: 100%;
+      background-color: rgba(242, 236, 236, 0.726);
+      height: 9vw;
+      padding-top: 1.5vw;
+      text-shadow: 0.2vh 0 0.5vh #000; }
   .main__titulo {
-    font-size: 1.2vw;
+    font-size: 1.8vw;
     color: white;
     background-color: rgba(0, 0, 0, 0.426);
-    height: 4vw;
-    position: absolute;
+    height: 7vw;
+    position: relative;
     z-index: 10;
-    width: 58.7vw;
-    left: 18.7vw;
+    width: 100vw;
     padding: 0;
     letter-spacing: 0.3vw;
     padding-top: 1.5vw; }
     .main__titulo span {
       color: lightblue;
-      font-size: 1.3vw;
+      font-size: 2vw;
       letter-spacing: 0.3vw; }
     .main__titulo img {
-      width: 2%; }
+      width: 4%; }
   .borrarBr {
     display: none; } }
 
@@ -636,7 +652,8 @@
       box-shadow: 0 0 0 1vw rgba(37, 211, 102, 0); } } }
 
 .contacto__main {
-  background-image: url(../Imagenes/RAMA.png);
+  /*   background-image: url(../Imagenes/RAMA.png); */
+  width: 100%;
   background-repeat: no-repeat;
   background-size: 150% auto;
   background-position: -19.5vw -1vh; }
@@ -654,7 +671,8 @@
 .contacto__formulario {
   grid-template-rows: 2fr 2fr 1fr;
   grid-template-columns: 1fr;
-  height: 100vw; }
+  height: 100vw;
+  margin: 0 !important; }
   .contacto__formulario textarea {
     height: 30vw;
     width: 80vw;
@@ -673,6 +691,7 @@
       font-size: 4vw; }
 
 .form__left {
+  margin: 0 !important;
   grid-template-rows: repeat(4 1fr); }
   .form__left input {
     font-style: italic;
@@ -686,6 +705,9 @@
     .form__left input::placeholder {
       color: white;
       font-size: 4vw; }
+
+.form__right {
+  margin: 0 !important; }
 
 .contacto__formulario input:focus {
   outline: none;
@@ -717,110 +739,125 @@
   border-top-left-radius: 2vw;
   border-bottom-right-radius: 2vw; }
 
+/* 
 @media only screen and (min-width: 992px) {
-  .contacto__main {
-    background-image: url(../Imagenes/RAMA.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: -2.5vw -1vw;
-    width: 100vw;
-    margin-top: 2vw; }
-  .contacto__titulo {
-    padding: 0 !important;
-    font-size: 1.2vw;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.426);
-    height: 4vw;
-    position: absolute;
-    z-index: 10;
-    width: 58.7vw;
-    left: 18.7vw;
-    padding: 0;
-    letter-spacing: 0.3vw;
-    padding-top: 1.5vw; }
-  .main__contacto--up {
-    position: relative;
-    /* background-color: rgba(148, 246, 182, 0.586); */
-    background-color: rgba(0, 0, 0, 0.436);
-    height: 0;
-    padding: 0 !important; }
-  .contacto__titulo b {
-    font-size: 1vw;
-    color: white;
-    position: relative;
-    top: 1.2vw; }
-  .contacto__formulario {
-    grid-template-rows: 1fr;
-    grid-template-columns: 2fr 2fr 1fr;
-    width: 58.75vw;
-    height: 34.5vw;
-    position: relative;
-    left: 19.5vw;
-    top: 2vw;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-    background-color: rgba(255, 255, 255, 0.549); }
-    .contacto__formulario input:focus {
-      outline: none;
-      color: white;
-      font-size: 1.4vw; }
-      .contacto__formulario input:focus::placeholder {
-        color: transparent; }
-    .contacto__formulario textarea {
-      height: 19vw;
-      width: 27vw;
-      position: relative;
-      border: double 0.5vw black;
-      font-style: italic;
-      font-size: 1.4vw;
-      left: -10vw;
-      color: white;
-      font-family: 'Times New Roman', Times, serif;
-      background-color: rgba(0, 0, 0, 0.436);
-      resize: none; }
-      .contacto__formulario textarea:focus {
+    .contacto__main{
+        background-image: url(../Imagenes/RAMA.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: -2.5vw -1vw;
+        width: 100vw;
+        margin-top: 2vw;
+    }
+    .contacto__titulo{
+        padding: 0 !important;
+        font-size:1.2vw;
         color: white;
-        outline: none;
-        font-size: 1.4vw; }
-        .contacto__formulario textarea:focus::placeholder {
-          color: transparent; }
-      .contacto__formulario textarea::placeholder {
+        background-color: rgba(0, 0, 0, 0.426);
+        height: 4vw;
+        position: absolute;
+        z-index: 10;
+        width: 58.7vw;
+        left: 18.7vw;
+        padding: 0;
+        letter-spacing: 0.3vw;
+        padding-top: 1.5vw;
+    }
+    .main__contacto--up{
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.436);
+        height: 0;
+        padding: 0 !important;
+    }
+    .contacto__titulo b{
+        font-size: 1vw;
         color: white;
-        font-size: 1.5vw; }
-  .form__left {
-    display: grid;
-    grid-template-rows: repeat(4 1fr);
-    justify-items: center;
-    align-items: center; }
-    .form__left input {
-      font-style: italic;
-      font-size: 1.4vw;
-      font-family: 'Times New Roman', Times, serif;
-      width: 18vw;
-      height: 4vw;
-      position: relative;
-      left: 0;
-      color: white;
-      background-color: rgba(0, 0, 0, 0.436);
-      border: double 0.5vw black; }
-      .form__left input::placeholder {
+        position: relative;
+        top:1.2vw;
+    }
+    .contacto__formulario{
+        grid-template-rows:  1fr;
+        grid-template-columns: 2fr 2fr 1fr;
+        width: 58.75vw;
+        height: 34.5vw;
+        position: relative;
+        left:19.5vw;
+        top:2vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        background-color: rgba(255, 255, 255, 0.549);
+        input:focus{
+            outline: none;
+            color: white;
+            font-size: 1.4vw;
+            &::placeholder{
+                color: transparent;
+            } 
+        }
+        textarea{
+            height: 19vw;
+            width: 27vw;
+            position: relative;
+            border: double 0.5vw black;
+            font-style: italic;
+            font-size:1.4vw;
+            left: -10vw;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgba(0, 0, 0, 0.436);
+            resize: none;
+            &:focus{
+                color: white;
+                outline: none;
+                font-size: 1.4vw;
+            &::placeholder{
+                color: transparent;
+            }
+            }
+            &::placeholder{
+                color:  white;
+                font-size: 1.5vw;
+            }
+        }
+    }
+    .form__left{
+        display: grid;
+        grid-template-rows: repeat(4 1fr);
+        justify-items: center;
+        align-items: center;
+        input{
+            font-style: italic;
+            font-size:1.4vw;
+            font-family: 'Times New Roman', Times, serif;
+            width: 18vw;
+            height: 4vw;
+            position: relative;
+            left:0; 
+            color: white;
+            background-color: rgba(0, 0, 0, 0.436);
+            border: double 0.5vw black;
+            &::placeholder{
+                color: white;
+                font-size: 1.4vw;
+            }
+        }
+    }
+    #enviar{
+        border: double 0.5vw black;
+        font-style: italic;
+        font-size:1.4vw;
         color: white;
-        font-size: 1.4vw; }
-  #enviar {
-    border: double 0.5vw black;
-    font-style: italic;
-    font-size: 1.4vw;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgba(0, 0, 0, 0.436);
-    position: relative;
-    height: 3vw;
-    width: 8vw;
-    left: -4vw;
-    top: -1vw;
-    border-top-left-radius: 0.5vw;
-    border-bottom-right-radius: 0.5vw; } }
-
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgba(0, 0, 0, 0.436);
+        position: relative;
+        height: 3vw;
+        width: 8vw;
+        left:-4vw;
+        top:-1vw;
+        border-top-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;    
+        }
+}     */
 .quienSoy {
   display: grid;
   grid-template-rows: 1fr;
@@ -1042,7 +1079,7 @@
     padding-top: 0.8vw; } }
 
 .index__main {
-  background-color: #3c0c0c; }
+  background-color: black; }
 
 .servicios__main {
   background-color: lightblue; }
